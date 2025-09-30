@@ -4,7 +4,7 @@
 
 ### 5.1.1 Expansion Board Ports
 
-<img src="../_static/media/chapter_5/section_1/media/image1.png" style="width:600px" />
+<img src="../_static/media/chapter_5/section_1/media/image1.png" class="common_img" style="width:600px" />
 
 ### 5.1.2 Ports for Electronic Module
 
@@ -123,55 +123,55 @@ Before installing the expansion board, please prepare the following staffs.
 
 1) Install the pillar column to the round hold as pictured. Firstly, pass the single-pass copper column from the back, then use dual-pass copper column to screw the single-pass copper column.
 
-<img src="../_static/media/chapter_5/section_2/media/image2.jpeg" style="width:5.75667in;height:3.45833in" />
+<img src="../_static/media/chapter_5/section_2/media/image2.jpeg"  class="common_img" style="width:5.75667in;height:3.45833in" />
 
 >[!Note]
 >
 >**Do not misplace these two kinds of copper columns. The single-pass copper column should be on the back, and dual-pass copper column on the front.**
 
-<img src="../_static/media/chapter_5/section_2/media/image3.png" style="width:5.76333in;height:3.92708in" />
+<img src="../_static/media/chapter_5/section_2/media/image3.png" class="common_img" style="width:5.76333in;height:3.92708in" />
 
 2) Before installing the antenna adapter cable, remove the heat sink first.
 
 Remove the screws circled in the picture, then open the locks on both sides of the slot outwards. After that, the heat sink can be removed.
 
-<img src="../_static/media/chapter_5/section_2/media/image4.png" style="width:5.5325in;height:3.32583in" />
+<img class="common_img" src="../_static/media/chapter_5/section_2/media/image4.png" style="width:5.5325in;height:3.32583in" />
 
 3) Install the wireless network card into the slot as pictured, and fix it with screw.
 
-<img src="../_static/media/chapter_5/section_2/media/image5.png" style="width:5.76333in;height:3.92708in" />
+<img class="common_img" src="../_static/media/chapter_5/section_2/media/image5.png" style="width:5.76333in;height:3.92708in" />
 
-<img src="../_static/media/chapter_5/section_2/media/image6.png" style="width:5.5325in;height:3.32583in" />
+<img class="common_img" src="../_static/media/chapter_5/section_2/media/image6.png" style="width:5.5325in;height:3.32583in" />
 
 4) Install the antenna adapter cable to the interface circled in the picture.
 
-<img src="../_static/media/chapter_5/section_2/media/image7.png" style="width:5.76333in;height:8.58708in" />
+<img class="common_img" src="../_static/media/chapter_5/section_2/media/image7.png" style="width:5.76333in;height:8.58708in" />
 
-<img src="../_static/media/chapter_5/section_2/media/image8.png" style="width:5.5325in;height:2.77417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_2/media/image8.png" style="width:5.5325in;height:2.77417in" />
 
 5) Put the heat sink back to the slot circled below, and fix it with screw.
 
-<img src="../_static/media/chapter_5/section_2/media/image9.png" style="width:5.5325in;height:2.3425in" />
+<img class="common_img" src="../_static/media/chapter_5/section_2/media/image9.png" style="width:5.5325in;height:2.3425in" />
 
-<img src="../_static/media/chapter_5/section_2/media/image10.png" style="width:5.5325in;height:2.77583in" />
+<img class="common_img" src="../_static/media/chapter_5/section_2/media/image10.png" style="width:5.5325in;height:2.77583in" />
 
 6) Insert the SD card into the card slot.
 
-<img src="../_static/media/chapter_5/section_2/media/image11.png" style="width:5.5325in;height:2.77917in" />
+<img class="common_img" src="../_static/media/chapter_5/section_2/media/image11.png" style="width:5.5325in;height:2.77917in" />
 
 7) Connect the female headers of Jetson Nano expansion board to the headers of the controller. Then fix the expansion board with the Phillips round head machine screw/ M2.5\*5.
 
-<img src="../_static/media/chapter_5/section_2/media/image12.png" style="width:5.5325in;height:3.12083in" />
+<img class="common_img" src="../_static/media/chapter_5/section_2/media/image12.png" style="width:5.5325in;height:3.12083in" />
 
-<img src="../_static/media/chapter_5/section_2/media/image13.png" style="width:5.76333in;height:3.73708in" />
+<img class="common_img" src="../_static/media/chapter_5/section_2/media/image13.png" style="width:5.76333in;height:3.73708in" />
 
 8) Install the cooling fan on the heat sink, then fix the four corners, circled below, with Phillips round head screw/ /M3\*10.
 
-<img src="../_static/media/chapter_5/section_2/media/image14.png" style="width:5.5325in;height:3.01917in" />
+<img class="common_img" src="../_static/media/chapter_5/section_2/media/image14.png" style="width:5.5325in;height:3.01917in" />
 
 9) Connect the wire of the fan to the interface as the picture shown.
 
-<img src="../_static/media/chapter_5/section_2/media/image15.png" style="width:5.76333in;height:3.89542in" />
+<img class="common_img" src="../_static/media/chapter_5/section_2/media/image15.png" style="width:5.76333in;height:3.89542in" />
 
 ## 5.3 Application Notice
 
@@ -183,7 +183,7 @@ Remove the screws circled in the picture, then open the locks on both sides of t
 
 ### 5.3.2 Wiring Diagram
 
-<img src="../_static/media/chapter_5/section_3/media/image2.jpeg" style="width:5.76333in;height:2.89667in" />
+<img class="common_img" src="../_static/media/chapter_5/section_3/media/image2.jpeg" style="width:5.76333in;height:2.89667in" />
 
 | Port                                                         | Function                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -200,7 +200,7 @@ Remove the screws circled in the picture, then open the locks on both sides of t
 
 There is a LED on Jetson Nano expansion board as pictured.
 
-<img src="../_static/media/chapter_5/section_4/media/image2.png" style="width:5.5325in;height:3.63417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_4/media/image2.png" style="width:5.5325in;height:3.63417in" />
 
 ### 5.4.2 Program Logic
 
@@ -208,7 +208,7 @@ The level status of I/O pin determines LED to light up and go out. When the pin 
 
 The source code of the program is stored in **/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_exam ple/led_demo.py**
 
-<img src="../_static/media/chapter_5/section_4/media/image3.png" style="width:5.5325in;height:2.54583in" />
+<img class="common_img" src="../_static/media/chapter_5/section_4/media/image3.png" style="width:5.5325in;height:2.54583in" />
 
 ### 5.4.3 Operation Steps
 
@@ -244,7 +244,7 @@ After the game starts, LED will flash twice quickly, then light up once, and it 
 
 There is a buzzer on Jetson Nano expansion board.
 
-<img src="../_static/media/chapter_5/section_5/media/image2.jpeg" style="width:5.76167in;height:3.76167in" />
+<img class="common_img" src="../_static/media/chapter_5/section_5/media/image2.jpeg" style="width:5.76167in;height:3.76167in" />
 
 ### 5.5.2 Program Logic
 
@@ -254,11 +254,11 @@ The source code of the program is stored in
 
 **/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_exam ple/buzzer_demo.py**
 
-<img src="../_static/media/chapter_5/section_5/media/image3.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_5/section_5/media/image3.png" style="width:500px" />
 
 ### 5.5.3 Operation Steps
 
-<img src="../_static/media/chapter_5/section_5/media/image4.png" style="width:50px" /> The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
+The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 1) Start Jetson Nano robot kit, and connect it to NoMachine
 
@@ -288,7 +288,7 @@ After the game starts, the buzzer will keep making sound.
 
 There are two keys on Jetson Nano expansion board as pictured.
 
-<img src="../_static/media/chapter_5/section_6/media/image2.png" style="width:5.30394in;height:3.56966in" />
+<img class="common_img" src="../_static/media/chapter_5/section_6/media/image2.png" style="width:5.30394in;height:3.56966in" />
 
 ### 5.6.2 Program Logic
 
@@ -298,11 +298,11 @@ The source code of this program is located in
 
 **/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_exam ple/button_demo.py**
 
-<img src="../_static/media/chapter_5/section_6/media/image3.jpeg" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_5/section_6/media/image3.jpeg" style="width:500px" />
 
 ### 5.6.3 Operation Steps
 
-<img src="../_static/media/chapter_5/section_6/media/image4.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
+The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
@@ -328,9 +328,9 @@ After the game starts, the status of `key1` and `key2` will be printed on the co
 
 Take `key1` for example. When you long press the key1, the number behind key1 will change from `1` to `0`. When you release the `key2`, the number will change from `0` to `1` .
 
-<img src="../_static/media/chapter_5/section_6/media/image8.jpeg" style="width:4.725in;height:0.33in" />
+<img class="common_img" src="../_static/media/chapter_5/section_6/media/image8.jpeg" style="width:4.725in;height:0.33in" />
 
-<img src="../_static/media/chapter_5/section_6/media/image9.jpeg" style="width:4.725in;height:0.33in" />
+<img class="common_img" src="../_static/media/chapter_5/section_6/media/image9.jpeg" style="width:4.725in;height:0.33in" />
 
 ## 5.7 Read Acceleration Sensor
 
@@ -338,7 +338,7 @@ Take `key1` for example. When you long press the key1, the number behind key1 wi
 
 Jetson Nano expansion board comes with a MPU6050 as the picture shown.
 
-<img src="../_static/media/chapter_5/section_7/media/image2.png" style="width:5.33164in;height:3.44546in" />
+<img class="common_img" src="../_static/media/chapter_5/section_7/media/image2.png" style="width:5.33164in;height:3.44546in" />
 
 ### 5.7.2 Program Logic
 
@@ -354,11 +354,11 @@ The source code of this program is stored in
 
 **/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_exam ple/imu_demo.py**
 
-<img src="../_static/media/chapter_5/section_7/media/image3.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_5/section_7/media/image3.png" style="width:500px" />
 
 ### 5.7.3 Operation Steps
 
-<img src="../_static/media/chapter_5/section_7/media/image4.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
+The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
@@ -382,7 +382,7 @@ python3 imu_demo.py
 
 After the game starts, the status of MPU6050 will be printed on the command line terminal.
 
-<img src="../_static/media/chapter_5/section_7/media/image8.png" style="width:5.5325in;height:1.1125in" />
+<img class="common_img" src="../_static/media/chapter_5/section_7/media/image8.png" style="width:5.5325in;height:1.1125in" />
 
 The meaning of the information printed is as follow.
 
@@ -396,7 +396,7 @@ The meaning of the information printed is as follow.
 
 Connect the PWM servo to any PWM servo port on the Jetson Nano expansion board. Take LFD-01M servo for example.
 
-<img src="../_static/media/chapter_5/section_8/media/image2.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_5/section_8/media/image2.png" style="width:500px" />
 
 >[!Note]
 >
@@ -412,7 +412,7 @@ The source code of this program is stored in
 
 **/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/ pwm_servo/pwm_servo_demo.py**
 
-<img src="../_static/media/chapter_5/section_8/media/image3.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_5/section_8/media/image3.png" style="width:500px" />
 
 Take `my_servo.set_position(position, duration)` for example. The meaning of the parameters in bracket is explained below.
 
@@ -424,7 +424,7 @@ The second parameter `duration` is the time for the servo rotation in millisecon
 
 ### 5.8.3 Operation Steps
 
-<img src="../_static/media/chapter_5/section_8/media/image4.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
+The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
@@ -468,7 +468,7 @@ rosed jetauto_example pwm_servo_demo.py
 
 (3) Locate to the following codes.
 
-<img src="../_static/media/chapter_5/section_8/media/image10.png" style="width:5.5325in;height:0.29583in" />
+<img class="common_img" src="../_static/media/chapter_5/section_8/media/image10.png" style="width:5.5325in;height:0.29583in" />
 
 >[!Note]
 >
@@ -476,11 +476,11 @@ rosed jetauto_example pwm_servo_demo.py
 
 (4) Press "**i**" key to enter the editing mode, then change " **1**" as "**2**" .
 
-<img src="../_static/media/chapter_5/section_8/media/image11.png" style="width:5.5325in;height:0.29583in" />
+<img class="common_img" src="../_static/media/chapter_5/section_8/media/image11.png" style="width:5.5325in;height:0.29583in" />
 
 (5) After modification, press "**Esc**" key, input " **:wq**" and press Enter to save and exit.
 
-<img src="../_static/media/chapter_5/section_8/media/image12.png" style="width:3.17083in;height:0.23083in" />
+<img class="common_img" src="../_static/media/chapter_5/section_8/media/image12.png" style="width:3.17083in;height:0.23083in" />
 
 (6) Lastly, restart the game according to the steps in "**[5.8.3 Operation Steps](#anchor_5_8_3)**" , then you can check servo performance.
 
@@ -490,7 +490,7 @@ rosed jetauto_example pwm_servo_demo.py
 
 Connect the PWM servo to any PWM servo port on the Jetson Nano expansion board. Take LFD-01M servo for example.
 
-<img src="../_static/media/chapter_5/section_9/media/image2.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_5/section_9/media/image2.png" style="width:500px" />
 
 >[!Note]
 >
@@ -504,7 +504,7 @@ Through sending the command containing position and time for rotation, PWM servo
 
 The source code of the program is stored in **/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/pwm_servo/pwm_servo_speed_demo.py**
 
-<img src="../_static/media/chapter_5/section_9/media/image3.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_5/section_9/media/image3.png" style="width:500px" />
 
 Take `my_servo.set_position(position, duration)` for example. The meaning of the parameters in bracket is as follows.
 
@@ -514,7 +514,7 @@ The second parameter `duration` is the time for the servo rotation in millisecon
 
 ### 5.9.3 Operation Steps
 
-<img src="../_static/media/chapter_5/section_9/media/image4.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
+The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
@@ -554,7 +554,7 @@ Then, the PWM servo will cycle in this way. If you press "**Ctrl+C**", the progr
 
 Connect 2 PWM servos to any PWM servo port on the Jetson Nano expansion board. Take LFD-01M servo for example.
 
-<img src="../_static/media/chapter_5/section_10/media/image2.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_5/section_10/media/image2.png" style="width:500px" />
 
 >[!Note]
 >
@@ -570,7 +570,7 @@ The source code of this program is stored in
 
 **/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/pwm_servo/two_pwm_servo_demo.py**
 
-<img src="../_static/media/chapter_5/section_10/media/image3.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_5/section_10/media/image3.png" style="width:500px" />
 
 Take `my_servo.set_position(position, duration)` for example. The meaning of the parameters in bracket is explained below.
 
@@ -580,7 +580,7 @@ The second parameter `duration` is the time for the servo rotation in millisecon
 
 ### 5.10.3 Operation Steps
 
-<img src="../_static/media/chapter_5/section_10/media/image4.png" style="width:50px" /> The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
+The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
@@ -626,7 +626,7 @@ Serial interface is also called serial communication interface. It is an expansi
 
 Connect the TX and RX interfaces on Jetson Nano expansion board together, as the below picture shown.
 
-<img src="../_static/media/chapter_5/section_11/media/image2.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_5/section_11/media/image2.png" style="width:500px" />
 
 ### 5.11.3 Program Logic
 
@@ -636,17 +636,17 @@ The source code of this program is located in
 
 **/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_send_demo.py**
 
-<img src="../_static/media/chapter_5/section_11/media/image3.png" style="width:5.76333in;height:5.47875in" />
+<img class="common_img" src="../_static/media/chapter_5/section_11/media/image3.png" style="width:5.76333in;height:5.47875in" />
 
 The source code of this program is located in
 
 **/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_read_demo.py**
 
-<img src="../_static/media/chapter_5/section_11/media/image4.png" style="width:5.76333in;height:3.97708in" />
+<img class="common_img" src="../_static/media/chapter_5/section_11/media/image4.png" style="width:5.76333in;height:3.97708in" />
 
 ### 5.11.4 Operation Steps
 
-<img src="../_static/media/chapter_5/section_11/media/image5.png" style="width:50px" /> The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
+The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
@@ -678,7 +678,7 @@ python3 serial_read_demo.py
 
 After the game starts, the terminal where the program "**serial_read_demo.py**" runs will print the characters received by the serial interface.
 
-<img src="../_static/media/chapter_5/section_11/media/image10.png"/>
+<img class="common_img" src="../_static/media/chapter_5/section_11/media/image10.png"/>
 
 ## 5.12 Control Serial Bus Servo
 
@@ -686,7 +686,7 @@ After the game starts, the terminal where the program "**serial_read_demo.py**" 
 
 Connect the serial bus servo to any serial bus servo port on the Jetson Nano expansion board. Take HTS-35H servo for example.
 
-<img src="../_static/media/chapter_5/section_12/media/image2.png" style="width:5.30394in;height:3.74355in" />
+<img class="common_img" src="../_static/media/chapter_5/section_12/media/image2.png" style="width:5.30394in;height:3.74355in" />
 
 **Note: the servo wire adopts reverse plugging protection. Please don't plug it violently.**
 
@@ -698,7 +698,7 @@ position (pulse width) and rotation time.
 
 The source code of this program is stored in **/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/serial_servo_move_demo.py**
 
-<img src="../_static/media/chapter_5/section_12/media/image3.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_5/section_12/media/image3.png" style="width:500px" />
 
 Take `servo_control.set_servo_position(servo_id, position, duration)` for example. The meaning of the parameters in the bracket is as follows.
 
@@ -728,31 +728,31 @@ cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/
 python3 set_serial_servo_status.py
 ```
 
-<img src="../_static/media/chapter_5/section_12/media/image7.png" style="width:4.74583in;height:3.9275in" />
+<img class="common_img" src="../_static/media/chapter_5/section_12/media/image7.png" style="width:4.74583in;height:3.9275in" />
 
 (5\) Input " 1" , and press Enter to modify the servo ID.
 
-<img src="../_static/media/chapter_5/section_12/media/image8.png" style="width:4.74583in;height:0.30417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_12/media/image8.png" style="width:4.74583in;height:0.30417in" />
 
 (6\) Input the current servo ID, and press Enter.
 
-<img src="../_static/media/chapter_5/section_12/media/image9.png" style="width:4.74583in;height:0.30417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_12/media/image9.png" style="width:4.74583in;height:0.30417in" />
 
 (7\) Input the new servo ID, and press Enter.
 
-<img src="../_static/media/chapter_5/section_12/media/image10.png" style="width:4.74583in;height:0.30417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_12/media/image10.png" style="width:4.74583in;height:0.30417in" />
 
 After modification, the servo status will be printed on the terminal. At this time, the servo ID is changed successfully.
 
-<img src="../_static/media/chapter_5/section_12/media/image11.png" style="width:4.74583in;height:1.39083in" />
+<img class="common_img" src="../_static/media/chapter_5/section_12/media/image11.png" style="width:4.74583in;height:1.39083in" />
 
 (8\) Input `9` and press Enter to exit the program
 
-<img src="../_static/media/chapter_5/section_12/media/image12.png" style="width:4.74583in;height:0.30417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_12/media/image12.png" style="width:4.74583in;height:0.30417in" />
 
 ### 5.12.4 Operation Steps
 
-<img src="../_static/media/chapter_5/section_12/media/image13.png" style="width:50px" /> The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
+The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
@@ -788,7 +788,7 @@ Then, the servo will cycle this motion. When you press "**Ctrl+C**" , this progr
 
 Connect the serial bus servo to any serial bus servo port on the Jetson Nano expansion board. Take HTS-35H servo for example.
 
-<img src="../_static/media/chapter_5/section_13/media/image2.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_5/section_13/media/image2.png" style="width:500px" />
 
 >[!Note]
 >
@@ -802,7 +802,7 @@ The source code of this program is stored in
 
 **/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/serial_servo_speed_demo.py**
 
-<img src="../_static/media/chapter_5/section_13/media/image3.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_5/section_13/media/image3.png" style="width:500px" />
 
 Take `servo_control.set_servo_position(servo_id, position, duration)` for example. The meaning of the parameters in the bracket is as follows.
 
@@ -818,7 +818,7 @@ If you need to change the ID of the serial bus servo, you can follow the steps b
 
 (1\) Start Jetson Nano robot kit, and then connect it to NoMachine.
 
-(2\) Double click <img src="../_static/media/chapter_5/section_13/media/image4.png" style="width:50px" />to open the command line terminal.
+(2\) Double click <img src="../_static/media/chapter_5/section_13/media/image4.png" style="width:50px" /> to open the command line terminal.
 
 (3\) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/**" and press Enter to enter the directory where the program files are stored.
 
@@ -832,31 +832,31 @@ cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/
 python3 set_serial_servo_status.py
 ```
 
-<img src="../_static/media/chapter_5/section_13/media/image7.png" style="width:4.74583in;height:3.9275in" />
+<img class="common_img" src="../_static/media/chapter_5/section_13/media/image7.png" style="width:4.74583in;height:3.9275in" />
 
 (5\) Input "**1**", and press Enter to modify the servo ID.
 
-<img src="../_static/media/chapter_5/section_13/media/image8.png" style="width:4.74583in;height:0.30417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_13/media/image8.png" style="width:4.74583in;height:0.30417in" />
 
 (6\) Input the current servo ID, and press Enter.
 
-<img src="../_static/media/chapter_5/section_13/media/image9.png" style="width:4.74583in;height:0.30417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_13/media/image9.png" style="width:4.74583in;height:0.30417in" />
 
 (7\) Input the new servo ID, and press Enter.
 
-<img src="../_static/media/chapter_5/section_13/media/image10.png" style="width:4.74583in;height:0.30417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_13/media/image10.png" style="width:4.74583in;height:0.30417in" />
 
 After modification, the servo status will be printed on the terminal. At this time, the servo ID is changed successfully.
 
-<img src="../_static/media/chapter_5/section_13/media/image11.png" style="width:4.74583in;height:1.39083in" />
+<img class="common_img" src="../_static/media/chapter_5/section_13/media/image11.png" style="width:4.74583in;height:1.39083in" />
 
 (8\) Input `9` and press Enter to exit the program
 
-<img src="../_static/media/chapter_5/section_13/media/image12.png" style="width:4.74583in;height:0.30417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_13/media/image12.png" style="width:4.74583in;height:0.30417in" />
 
-### **5.13.4 Operation Steps**
+### 5.13.4 Operation Steps
 
-<img src="../_static/media/chapter_5/section_13/media/image13.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
+The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
@@ -896,7 +896,7 @@ Then, the servo will cycle this motion. You can press "**Ctrl+C**" to exit this 
 
 Connect the serial bus servo to any serial bus servo port on the Jetson Nano expansion board. Take HTS-35H servo for example.
 
-<img src="../_static/media/chapter_5/section_14/media/image2.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_5/section_14/media/image2.png" style="width:500px" />
 
 >[!Note]
 >
@@ -908,7 +908,7 @@ The program will send command to read the servo status in real time, including s
 
 The source code of this program is stored in **/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/serial_servo_status.py**
 
-<img src="../_static/media/chapter_5/section_14/media/image3.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_5/section_14/media/image3.png" style="width:500px" />
 
 ### 5.14.3 Set Servo ID
 
@@ -930,31 +930,31 @@ cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/
 python3 set_serial_servo_status.py
 ```
 
-<img src="../_static/media/chapter_5/section_14/media/image7.png" style="width:4.74583in;height:3.9275in" />
+<img class="common_img" src="../_static/media/chapter_5/section_14/media/image7.png" style="width:4.74583in;height:3.9275in" />
 
 (5\) Input " **1**", and press Enter to modify the servo ID.
 
-<img src="../_static/media/chapter_5/section_14/media/image8.png" style="width:4.74583in;height:0.30417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_14/media/image8.png" style="width:4.74583in;height:0.30417in" />
 
 (6\) Input the current servo ID, and press Enter.
 
-<img src="../_static/media/chapter_5/section_14/media/image9.png" style="width:4.74583in;height:0.30417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_14/media/image9.png" style="width:4.74583in;height:0.30417in" />
 
 (7\) Input the new servo ID, and press Enter.
 
-<img src="../_static/media/chapter_5/section_14/media/image10.png" style="width:4.74583in;height:0.30417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_14/media/image10.png" style="width:4.74583in;height:0.30417in" />
 
 After modification, the servo status will be printed on the terminal. At this time, the servo ID is changed successfully.
 
-<img src="../_static/media/chapter_5/section_14/media/image11.png" style="width:4.74583in;height:1.39083in" />
+<img class="common_img" src="../_static/media/chapter_5/section_14/media/image11.png" style="width:4.74583in;height:1.39083in" />
 
 (8\) Input `9` and press Enter to exit the program
 
-<img src="../_static/media/chapter_5/section_14/media/image12.png" style="width:4.74583in;height:0.30417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_14/media/image12.png" style="width:4.74583in;height:0.30417in" />
 
 ### 5.14.4 Operation Steps
 
-<img src="../_static/media/chapter_5/section_14/media/image13.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
+The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
@@ -978,7 +978,7 @@ python3 serial_servo_status.py
 
 After the game starts, the serial bus servo will move in this way.
 
-<img src="../_static/media/chapter_5/section_14/media/image17.png" style="width:3.9575in;height:1.64417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_14/media/image17.png" style="width:3.9575in;height:1.64417in" />
 
 The following information will be printed.
 
@@ -1006,7 +1006,7 @@ The following information will be printed.
 
 Connect the serial bus servo to any serial bus servo port on the Jetson Nano expansion board. Take HTS-35H servo for example.
 
-<img src="../_static/media/chapter_5/section_15/media/image2.png" style="width:5.30394in;height:3.74355in" />
+<img class="common_img" src="../_static/media/chapter_5/section_15/media/image2.png" style="width:5.30394in;height:3.74355in" />
 
 >[!Note]
 >
@@ -1020,7 +1020,7 @@ The source code of this program is stored in
 
 **/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/ serial_servo/serial_servo_voltage.py**
 
-<img src="../_static/media/chapter_5/section_15/media/image3.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_5/section_15/media/image3.png" style="width:500px" />
 
 ### 5.15.3 Set Servo ID
 
@@ -1028,7 +1028,7 @@ If you need to change the ID of the serial bus servo, you can follow the steps b
 
 (1\) Start Jetson Nano robot kit, and then connect it to NoMachine.
 
-(2) Double click<img src="../_static/media/chapter_5/section_14/media/image14.png" style="width:50px" />to open the command line terminal.
+(2) Double click <img src="../_static/media/chapter_5/section_14/media/image14.png" style="width:50px" /> to open the command line terminal.
 
 (3\) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_ servo/**" and press Enter to enter the directory where the program files are stored.
 
@@ -1042,31 +1042,31 @@ cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/
 python3 set_serial_servo_status.py
 ```
 
-<img src="../_static/media/chapter_5/section_15/media/image7.png" style="width:4.74583in;height:3.9275in" />
+<img class="common_img" src="../_static/media/chapter_5/section_15/media/image7.png" style="width:4.74583in;height:3.9275in" />
 
 (5\) Input " **1**", and press Enter to modify the servo ID.
 
-<img src="../_static/media/chapter_5/section_15/media/image8.png" style="width:4.74583in;height:0.30417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_15/media/image8.png" style="width:4.74583in;height:0.30417in" />
 
 (6\) Input the current servo ID, and press Enter.
 
-<img src="../_static/media/chapter_5/section_15/media/image9.png" style="width:4.74583in;height:0.30417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_15/media/image9.png" style="width:4.74583in;height:0.30417in" />
 
 (7\) Input the new servo ID, and press Enter.
 
-<img src="../_static/media/chapter_5/section_15/media/image10.png" style="width:4.74583in;height:0.30417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_15/media/image10.png" style="width:4.74583in;height:0.30417in" />
 
 After modification, the servo status will be printed on the terminal. At this time, the servo ID is changed successfully.
 
-<img src="../_static/media/chapter_5/section_15/media/image11.png" style="width:4.74583in;height:1.39083in" />
+<img class="common_img" src="../_static/media/chapter_5/section_15/media/image11.png" style="width:4.74583in;height:1.39083in" />
 
 (8\) Input `9` and press Enter to exit the program
 
-<img src="../_static/media/chapter_5/section_15/media/image12.png" style="width:4.74583in;height:0.30417in" />
+<img class="common_img" src="../_static/media/chapter_5/section_15/media/image12.png" style="width:4.74583in;height:0.30417in" />
 
 ### 5.15.4 Operation Steps
 
-<img src="../_static/media/chapter_5/section_15/media/image13.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
+The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
@@ -1090,4 +1090,4 @@ python3 serial_servo_voltage.py
 
 After the game starts, the battery voltage will be printed on the terminal.
 
-<img src="../_static/media/chapter_5/section_15/media/image17.png" style="width:4.74583in;height:0.31583in" />
+<img class="common_img" src="../_static/media/chapter_5/section_15/media/image17.png" style="width:4.74583in;height:0.31583in" />

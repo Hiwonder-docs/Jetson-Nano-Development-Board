@@ -10,7 +10,7 @@ GPIO, a general-purpose input/output, is known as I/O port. It can allocate inpu
 
 The Jetson Nano has a 40PIN GPIO interface. GPIO voltage on the Jetson Nano is 3.3V, so no voltage levels higher than 3.3V should be connected to the Nano GPIO pins without using voltage level conversion. The GPIO interface functions as shown below.
 
-<img class="common_img" src="../_static/media/chapter_2/section_1/media/image2.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_2/section_1/media/image2.png"/>
 
 ### 2.1.3. Configure Environment and Install Library
 
@@ -80,7 +80,7 @@ Jetson Nano development board has a 40 Pin interface used to connect expansion b
 
 The pins distribution is as follow:
 
-<img class="common_img" src="../_static/media/chapter_2/section_2/media/image2.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_2/section_2/media/image2.png" />
 
 ### 2.2.4 Read Input
 
@@ -169,7 +169,7 @@ Output is a function required to control the pin level, and the high and low lev
 
 The Jetson Nano has a 40PIN GPIO interface. GPIO voltage on the Jetson Nano is 3.3V, so no voltage levels higher than 3.3V should be connected to the Nano GPIO pins without using voltage level conversion. The GPIO interface functions as shown below.
 
-<img class="common_img" src="../_static/media/chapter_2/section_3/media/image2.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_2/section_3/media/image2.png"/>
 
 ### 2.3.4 Output Setting
 
@@ -266,7 +266,7 @@ Yet, the pull-down resistor is to guarantee the input end to be high level when 
 
 The Jetson Nano has a 40PIN GPIO interface. GPIO voltage on the Jetson Nano is 3.3V, so no voltage levels higher than 3.3V should be connected to the Nano GPIO pins without using voltage level conversion. The GPIO interface functions as shown below.
 
-<img class="common_img" src="../_static/media/chapter_2/section_4/media/image2.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_2/section_4/media/image2.png" />
 
 ### 2.4.4 Output Setting
 
@@ -424,7 +424,7 @@ Double click "**[serial5.2.3.exe](https://drive.google.com/drive/folders/1ANfulY
 
 The below pins of Jetson Nano will be be used:
 
-<img class="common_img" src="../_static/media/chapter_2/section_6/media/image10.png" style="width:4.71875in;height:2.52083in" />
+<img class="common_img" src="../_static/media/chapter_2/section_6/media/image10.png" />
 
 >[!Note]
 >
@@ -594,7 +594,7 @@ If there is no need to continue reading, a non-acknowledgment is sent. The recip
 
 Please refer to the below Jetson Nano pins table.
 
-<img class="common_img" src="../_static/media/chapter_2/section_7/media/image7.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_2/section_7/media/image7.png" />
 
 Here will take an example of acceleration sensor using IIC port. You can use this same method on other modules with IIC port. The module is connected to Jetson Nano with a female-to-female dupond wire, as shown in the below figure:
 

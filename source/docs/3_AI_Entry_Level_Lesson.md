@@ -195,7 +195,7 @@ cap.release()
 
 >[!Note]
 >
-><img src="../_static/media/chapter_3/section_4/media/image2.png" style="width:50px" />**The entered command should be case sensitive, and "Tab" key can be used to auto-complete key words.**
+>**The entered command should be case sensitive, and "Tab" key can be used to auto-complete key words.**
 
 1) Start Jetson Nano and connect it to ubuntu desktop via NoMachine.
 
