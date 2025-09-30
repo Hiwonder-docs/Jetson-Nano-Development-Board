@@ -1220,7 +1220,7 @@ The installation pack of VMware Workstation Pro is located in "[**Appendix**]()"
 
 The specific operation steps are as follow:
 
-1) Extract "[**Vmware 16.0 Pro.zip**]()" to any directory, and then install the program "**VMware-workstation-full-16.0.0-16894299.exe**".
+1) Extract "[**Vmware 16.0 Pro.zip**](https://drive.google.com/drive/folders/18z1ZfEgzP9pqFrnYh71fGvdioaJhUk10?usp=sharing)" to any directory, and then install the program "**VMware-workstation-full-16.0.0-16894299.exe**".
 
 2) Click "**Next**".
 
@@ -2663,7 +2663,7 @@ package is stored in " **[1. Jetson Nano Basic Lesson/ 1.2 Jetson Nano ALT/ 1.2.
 
 The specific installation steps are as follow:
 
-1) Extract "**[Vmware 16.0 Pro.zip]()**" to any directory and double click "**VMware-workstation-full-16.0.0-16894299.exe**" to start installing software.
+1) Extract "**[Vmware 16.0 Pro.zip](https://drive.google.com/drive/folders/18z1ZfEgzP9pqFrnYh71fGvdioaJhUk10?usp=sharing)**" to any directory and double click "**VMware-workstation-full-16.0.0-16894299.exe**" to start installing software.
 
 2) Click "**Next**" .
 
