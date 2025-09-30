@@ -21,7 +21,7 @@ Adopting quad-core 64-bit ARM CPU and a 128-core integrated NVIDA GPU, Jetson Na
 
 Jetson Nano B01 version is launched by NVIDIA in January 2020. Compared to the previous version, a CSI camera interface is a new added hardware.
 
-<img class="common_img" src="../_static/media/chapter_1_1/section_1/media/image2.png" style="width:3.125in;height:2.57333in" />
+<img class="common_img" src="../_static/media/chapter_1_1/section_1/media/image2.png" />
 
 * **Usage Guide**
 
@@ -300,7 +300,7 @@ Please prepare the following hardware and software:
 
 3. BalenaEtcher (image writing tool)
 
-<img class="common_img" src="../_static/media/chapter_1_1/section_2/media/image2.png" style="width:1.1675in;height:1.5625in" />
+<img class="common_img" src="../_static/media/chapter_1_1/section_2/media/image2.png" />
 
 * **Image Preparation**
 
@@ -312,15 +312,15 @@ The image file is store under the same folder of this file. Extract the file in 
 
 Insert SD card into card reader, and connect it to computer. Then open "**balenaEtcher**".
 
-<img class="common_img" src="../_static/media/chapter_1_1/section_2/media/image3.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_1_1/section_2/media/image3.png" />
 
 2. Click "**Flash from file**" to import the image file.
 
-<img class="common_img" src="../_static/media/chapter_1_1/section_2/media/image4.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_1_1/section_2/media/image4.png" />
 
 3. Click "**Select target**" to select SD card.
 
-<img class="common_img" src="../_static/media/chapter_1_1/section_2/media/image6.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_1_1/section_2/media/image6.png" />
 
 > [!Note]
 >
@@ -330,17 +330,17 @@ Insert SD card into card reader, and connect it to computer. Then open "**balena
 
 5. Click "**Flash**" to start writing image.
 
-<img class="common_img" src="../_static/media/chapter_1_1/section_2/media/image8.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_1_1/section_2/media/image8.png" />
 
-<img class="common_img" src="../_static/media/chapter_1_1/section_2/media/image9.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_1_1/section_2/media/image9.png" />
 
 6. If the formatting prompt appears after the image is written, please click "**Cancel**".
 
-<img class="common_img" src="../_static/media/chapter_1_1/section_2/media/image10.png" style="width:3.00083in;height:1.3025in" />
+<img class="common_img" src="../_static/media/chapter_1_1/section_2/media/image10.png" />
 
 7. When the word "**Flash Complete**" is prompted, the image is written successfully.
 
-<img class="common_img" src="../_static/media/chapter_1_1/section_2/media/image11.png" style="width:4.7275in;height:2.94917in" />
+<img class="common_img" src="../_static/media/chapter_1_1/section_2/media/image11.png" />
 
 ### 1.1.3 First Start Jetson Nano
 
@@ -420,7 +420,7 @@ The system needs to be configured when first start Jetson Nano. The operation st
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_3/media/image17.jpeg" style="width:500px" />
 
-11. Click on<img src="../_static/media/chapter_1_1/section_3/media/image18.jpeg" />and input password. Then press Enter.
+11. Click on <img src="../_static/media/chapter_1_1/section_3/media/image18.jpeg" /> and input password. Then press Enter.
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_3/media/image19.jpeg" style="width:500px" />
 
@@ -753,7 +753,7 @@ Wireless network card is a wireless terminal device, which is used to connect to
 > For remote desktop installation and configuration, please refer to the material in " [**1.1.7 Remote Desktop Configuration and Usage**](#anchor_1_1_7)".
 >
 
-2. Double click <img src="../_static/media/chapter_1_1/section_5/media/image5.png" style="width:50px" />to on system desktop to open the command line terminal.
+2. Double click <img src="../_static/media/chapter_1_1/section_5/media/image5.png" style="width:50px" /> to on system desktop to open the command line terminal.
 
 3. Enter command "**ifconfig**" and press Enter to view the network connection status, If the IP of eth0 is 192.168.11.200 (this IP address is an example), network is connected successfully.
 
@@ -795,7 +795,7 @@ Wireless network card is a wireless terminal device, which is used to connect to
 
 7. Tighten the screw for fixing network card, as the picture shown below:
 
-<img class="common_img" src="../_static/media/chapter_1_1/section_5/media/image12.jpeg" style="500px" />
+<img class="common_img" src="../_static/media/chapter_1_1/section_5/media/image12.jpeg" style="width:500px" />
 
 8. There are two boxes in following picture. The red one is hole 1, and the blue one is hole 2 for connecting with antenna.
 
@@ -827,7 +827,7 @@ Wireless network card is a wireless terminal device, which is used to connect to
 
 1. Start Jetson Nano and connect with touch screen. 
 
-2. Click on<img src="../_static/media/chapter_1_1/section_5/media/image20.jpeg" style="width:50px" />and select "**More networks**" to select the WIFI to be connected.
+2. Click on <img src="../_static/media/chapter_1_1/section_5/media/image20.jpeg" style="width:50px" /> and select "**More networks**" to select the WIFI to be connected.
 
 3. Enter WIFI password and click "**Connect**" .
 
@@ -876,7 +876,7 @@ Enter command "**ifconfig**" and press Enter to view the network connection stat
 
 **3. View Device IP**
 
-1. Right click network connection area and select "Open 'Network and Internet' settings" .
+1. Right click network connection area and select "**Open 'Network and Internet' settings**" .
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_5/media/image29.png" style="width:300px" />
 
@@ -2907,7 +2907,7 @@ sudo apt install ./sdkmanager_1.8.3-10426_amd64.deb
 
 <img class="common_img" src="../_static/media/chapter_1_2/section_11/media/image27.png" style="width:500px" />
 
-7) Click <img src="../_static/media/chapter_1_2/section_11/media/image28.png" style="width:50px" />on tack bar and click on <img src="../_static/media/chapter_1_2/section_11/media/image29.png" style="width:50px" /> to run SDK Manager tool. If the following warning window pops up, click "**Yes**".
+7) Click <img src="../_static/media/chapter_1_2/section_11/media/image28.png" style="width:50px" /> on tack bar and click on <img src="../_static/media/chapter_1_2/section_11/media/image29.png" style="width:50px" /> to run SDK Manager tool. If the following warning window pops up, click "**Yes**".
 
 <img class="common_img" src="../_static/media/chapter_1_2/section_11/media/image30.png" style="width:500px" />
 

@@ -1,4 +1,4 @@
-# 3.AI Entry Level Lesson
+# 3. AI Entry Level Lesson
 
 ## 3.1 OpenCV Introduction
 
@@ -49,33 +49,33 @@ Open has a modular structure and contains several shared and static libraries. S
 
 >[!Note]
 >
->  **For Remote Desktop Installation and Configuration, please refer to** “[ **1. Jetson Nano Basic Lesson->1.2 Jetson Nano B01-\1.2.7 Remote Desktop Installation and Configuration**]()” .
+>  **For Remote Desktop Installation and Configuration, please refer to** "[ **1.1.7 Remote Desktop Installation and Configuration**](https://wiki.hiwonder.com/projects/Jetson-Nano-Development-Board/en/latest/docs/1_Jetson_Nano_Basic_Lesson.html#remote-desktop-configuration-and-usage)" .
 
-2) Double click on<img class="common_img" src="../_static/media/chapter_3/section_2/media/image5.png" style="width:50px" />to open command line terminal.
+2) Double click on<img src="../_static/media/chapter_3/section_2/media/image5.png" style="width:50px" />to open command line terminal.
 
-3) Shrink Nomachine window and drag “**usb_camera_test.py**” file under the same directory this document to Nomchine window.
+3) Shrink Nomachine window and drag "**usb_camera_test.py**" file under the same directory this document to Nomchine window.
 
 <img class="common_img" src="../_static/media/chapter_3/section_2/media/image6.jpeg" style="width:500px" />
 
 <img class="common_img" src="../_static/media/chapter_3/section_2/media/image7.jpeg" style="width:500px" />
 
-4) Right click to select “**Open Terminal**” .
+4) Right click to select "**Open Terminal**" .
 
 <img class="common_img" src="../_static/media/chapter_3/section_2/media/image8.jpeg" style="width:500px" />
 
-5) Enter command “**cd Desktop/**” and press Enter to enter desktop.
+5) Enter command "**cd Desktop/**" and press Enter to enter desktop.
 
-```py
+```
 cd Desktop/
 ```
 
-6) Enter command “**python3 usb_camera_test.py**” and press Enter to start testing USB camera.
+6) Enter command "**python3 usb_camera_test.py**" and press Enter to start testing USB camera.
 
-```py
+```
 python3 usb_camera_test.py
 ```
 
-7) If the following window pops up and the camera returned image appear, camera can normally be used. Press “**Esc**” to close window.
+7) If the following window pops up and the camera returned image appear, camera can normally be used. Press "**Esc**" to close window.
 
 <img class="common_img" src="../_static/media/chapter_3/section_2/media/image11.jpeg" style="width:500px" />
 
@@ -130,7 +130,7 @@ Read and display the data of the returned image.
             cv2.imshow("D435", img)
 ```
 
-Press “**Esc**” to close window.
+Press "**Esc**" to close window.
 
 ```py
 keyCode = cv2.waitKey(30) & 0xFF         
@@ -138,7 +138,7 @@ keyCode = cv2.waitKey(30) & 0xFF
                 break
 ```
 
-If camera is not detected or other errors appear, “**Camera Open Failure**” will be printed.
+If camera is not detected or other errors appear, "**Camera Open Failure**" will be printed.
 
 ```py
 cap.release()
@@ -146,6 +146,8 @@ cap.release()
     else:
         print("打开摄像头失败")
 ```
+
+<p id="anchor_3_3"></p>
 
 ## 3.3 CSI Camera Introduction and Installation
 
@@ -181,51 +183,49 @@ cap.release()
 
 <img class="common_img" src="../_static/media/chapter_3/section_3/media/image5.jpeg" style="width:500px" />
 
-<img class="common_img" src="../_static/media/chapter_3\section_3/media/image6.png" style="width:500px" />
-
-
+<img class="common_img" src="../_static/media/chapter_3/section_3/media/image6.png" style="width:500px" />
 
 ## 3.4 CSI Camera Test and Use
 
 >[!Note]
 >
->  **Please complete camera assembly according to “[3. AI Entry Level Lesson/ 3.3 CSI Camera Introduction and Installation]()” .**
+>  **Please complete camera assembly according to "[3.3 CSI Camera Introduction and Installation](#anchor_3_3)".**
 
 ### 3.4.1 Operation Steps
 
 >[!Note]
 >
-><img class="common_img" src="../_static/media/chapter_3\section_4\media\image2.png" style="width:50px" />**The entered command should be case sensitive, and “Tab” key can be used to auto-complete key words.**
+><img src="../_static/media/chapter_3/section_4/media/image2.png" style="width:50px" />**The entered command should be case sensitive, and "Tab" key can be used to auto-complete key words.**
 
 1) Start Jetson Nano and connect it to ubuntu desktop via NoMachine.
 
-2) Import “**Camera.py**” file under the same directory with document to home directory.
+2) Import "**Camera.py**" file under the same directory with document to home directory.
 
-<img class="common_img" src="../_static/media/chapter_3\section_4\media\image3.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_3/section_4/media/image3.png" style="width:500px" />
 
-3) Click on<img class="common_img" src="../_static/media/chapter_3\section_4\media\image4.jpeg" style="width:0.39567in;height:0.31667in" />or press “**Ctrl+Alt+T**” to open command line terminal.
+3) Click on <img src="../_static/media/chapter_3/section_4/media/image4.jpeg" style="width:0.39567in;height:0.31667in" /> or press "**Ctrl+Alt+T**" to open command line terminal.
 
-4) Enter command “**python3 Camera.py**” and press Enter to start game.
+4) Enter command "**python3 Camera.py**" and press Enter to start game.
 
-```py
+```
 python3 Camera.py
 ```
 
-5) If want to exit this game, please press “**Ctrl+C**” in terminal. Please try multiple times for failure operation.
+5) If want to exit this game, please press "**Ctrl+C**" in terminal. Please try multiple times for failure operation.
 
 ### 3.4.2 Outcome
 
 After this game starts, the camera returned image will appear on screen.
 
-<img class="common_img" src="../_static/media/chapter_3\section_4\media\image6.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_3/section_4/media/image6.png" style="width:500px" />
 
 ### 3.4.3 Program Analysis
 
 * **Read CSI Camera**
 
-<img class="common_img" src="../_static/media/chapter_3\section_4\media\image7.png" style="width:5.7875in;height:1.24417in" />
+<img class="common_img" src="../_static/media/chapter_3/section_4/media/image7.png" style="width:5.7875in;height:1.24417in" />
 
-<img class="common_img" src="../_static/media/chapter_3\section_4\media\image8.png" style="width:5.7875in;height:0.6125in" />
+<img class="common_img" src="../_static/media/chapter_3/section_4/media/image8.png" style="width:5.7875in;height:0.6125in" />
 
 Posture is mainly adjusted by VideoCapture function. Take code `cv2.VideoCapture(gstreamer_pipeline(flip_method=0), cv2.CAP_GSTREAMER)` as example. The meaning of parameters is as follow:
 
@@ -237,7 +237,7 @@ The first parameter `gstreamer_pipeline(flip_method=0)` is the framework deliver
 
 * **Read and Display Image**
 
-<img class="common_img" src="../_static/media/chapter_3\section_4\media\image9.png" style="width:5.78917in;height:1.1425in" />
+<img class="common_img" src="../_static/media/chapter_3/section_4/media/image9.png" style="width:5.78917in;height:1.1425in" />
 
 First read image by calling read, then display image by calling imshow. Take code `cv2.imshow("img", frame)` as example, the meaning of parameters is as follow:
 
@@ -283,45 +283,45 @@ Follow is MediaPipe workflow. The process of solid line needs to write code by y
 
 1) Start Jetson Nano and connect it to NoMachine.
 
-2) Double click on<img class="common_img" src="../_static/media/chapter_3\section_5/media/image4.png" style="width:50px" />to open command line terminal.
+2) Double click on <img src="../_static/media/chapter_3/section_5/media/image4.png" style="width:50px" /> to open command line terminal.
 
-3) Enter command “**sudo apt update** ” to update APT download list.
+3) Enter command "**sudo apt update**" to update APT download list.
 
-```py
+```
 sudo apt update
 ```
 
-4) Enter command “**sudo apt install python3-pip”** and press Enter to install pip.
+4) Enter command "**sudo apt install python3-pip"** and press Enter to install pip.
 
 >[!Note]
 >
 >**If do not update pip, it may cause the installation to fail.**
 
-```py
+```
 sudo apt install python3-pip
 ```
 
-5) Enter command “**python3 -m pip install --upgrade pip**” and press Enter to update pip.
+5) Enter command "**python3 -m pip install --upgrade pip**" and press Enter to update pip.
 
-```py
+```
 python3 -m pip install --upgrade pip
 ```
 
 6) Zoom in NoMachine window. Then drag
 
-“**mediapipe-0.8.5_cuda102-cp36-cp36m-linux_aarch64.whl**” under the same directory with this document to NoMachine window.
+"**mediapipe-0.8.5_cuda102-cp36-cp36m-linux_aarch64.whl**" under the same directory with this document to NoMachine window.
 
 <img class="common_img" src="../_static/media/chapter_3/section_5/media/image8.jpeg" style="width:500px" />
 
 <img class="common_img" src="../_static/media/chapter_3/section_5/media/image9.jpeg" style="width:500px" />
 
-7) Right click to select “**Open Terminal**” to open command line terminal.
+7) Right click to select "**Open Terminal**" to open command line terminal.
 
 <img class="common_img" src="../_static/media/chapter_3/section_5/media/image10.png" style="width:500px" />
 
-8) Enter command “**pip3 install mediapipe-0.8.5_cuda102-cp36-cp36m-linux_aarch64.whl**” and press Enter to install MediaPipe. The installation needs to take some time.
+8) Enter command "**pip3 install mediapipe-0.8.5_cuda102-cp36-cp36m-linux_aarch64.whl**" and press Enter to install MediaPipe. The installation needs to take some time.
 
-```py
+```
 pip3 install mediapipe-0.8.5_cuda102-cp36-cp36m-linux_aarch64.whl
 ```
 
@@ -331,27 +331,27 @@ pip3 install mediapipe-0.8.5_cuda102-cp36-cp36m-linux_aarch64.whl
 
 1) Start Jetson Nano and connect it to NoMachine.
 
-2) Zoom in NoMachine window and drag file “**mp_face_detect.py**” under the same directory with this document to NoMachine window.
+2) Zoom in NoMachine window and drag file "**mp_face_detect.py**" under the same directory with this document to NoMachine window.
 
-<img class="common_img" src="../_static/media/chapter_3\section_6\media\image2.jpeg" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_3/section_6/media/image2.jpeg" style="width:500px" />
 
-3) Double click on<img class="common_img" src="../_static/media/chapter_3\section_6/media/image4.png" style="width:50px" />to open command line terminal.
+3) Double click on <img src="../_static/media/chapter_3/section_6/media/image4.png" style="width:50px" /> to open command line terminal.
 
-4) Enter command “**pip3 install dataclasses**” and press Enter to install dependency package.
+4) Enter command "**pip3 install dataclasses**" and press Enter to install dependency package.
 
-```py
+```
 pip3 install dataclasses
 ```
 
-5) Enter command “**python3 mp_face_detect.py**” and press Enter to execute program.
+5) Enter command "**python3 mp_face_detect.py**" and press Enter to execute program.
 
-```py
+```
 python3 mp_face_detect.py
 ```
 
 6) Jetson Nano will automatically recognize and mark the face.
 
-<img class="common_img" src="../_static/media/chapter_3\section_6/media/image7.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_3/section_6/media/image7.png" style="width:500px" />
 
 ## 3.7 MediaPipe Gesture Recognition
 
@@ -359,25 +359,24 @@ python3 mp_face_detect.py
 
 1) Start Jetson Nano and connect it to Nomachine.
 
-2) Zoom in NoMachine window and drag the file “**mp_face_detect.py**” to NoMachine window.
+2) Zoom in NoMachine window and drag the file "**mp_face_detect.py**" to NoMachine window.
 
 <img class="common_img" src="../_static/media/chapter_3/section_7/media/image2.jpeg" style="width:500px" />
 
-3) Double click on<img class="common_img" src="../_static/media/chapter_3/section_7/media/image4.png" style="width:50px" />to open command line terminal.
+3) Double click on <img src="../_static/media/chapter_3/section_7/media/image4.png" style="width:50px" /> to open command line terminal.
 
-4) Enter command “**pip3 install dataclasses**” and press Enter to install dependency package.
+4) Enter command "**pip3 install dataclasses**" and press Enter to install dependency package.
 
-```py
+```
 pip3 install dataclasses
 ```
 
-5) Enter command “**python3 mp_gesture.py**” and press Enter to execute program.
+5) Enter command "**python3 mp_gesture.py**" and press Enter to execute program.
 
-```py
+```
 python3 mp_gesture.py
 ```
 
-Do a specific gesture within camera’s field of view. When the gesture is recognized, the key points of hand are marked on returned image and the numbers of fingers is displayed on upper left corner.
+Do a specific gesture within camera's field of view. When the gesture is recognized, the key points of hand are marked on returned image and the numbers of fingers is displayed on upper left corner.
 
-<img class="common_img" src="../_static/media/chapter_3\section_7/media/image7.png" style="width:5.77667in;height:4.535in" />
-
+<img class="common_img" src="../_static/media/chapter_3/section_7/media/image7.png" style="width:5.77667in;height:4.535in" />

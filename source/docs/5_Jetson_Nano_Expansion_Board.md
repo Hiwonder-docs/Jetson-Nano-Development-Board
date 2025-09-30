@@ -8,7 +8,7 @@
 
 ### 5.1.2 Ports for Electronic Module
 
-<table>
+<table class="docutils-nobg" border="1">
 <colgroup>
 <col style="width: 28%" />
 <col style="width: 71%" />
@@ -43,7 +43,7 @@
 <p>Power port</p>
 </td>
 <td>
-<p>“+” connects to positive electrode, and “-” connects to negative electrode</p>
+<p>"+" connects to positive electrode, and "-" connects to negative electrode</p>
 </td>
 </tr>
 <tr>
@@ -171,28 +171,28 @@ Remove the screws circled in the picture, then open the locks on both sides of t
 
 9) Connect the wire of the fan to the interface as the picture shown.
 
-<img src="../_static/media/chapter_5\section_2/media/image15.png" style="width:5.76333in;height:3.89542in" />
+<img src="../_static/media/chapter_5/section_2/media/image15.png" style="width:5.76333in;height:3.89542in" />
 
 ## 5.3 Application Notice
 
 ### 5.3.1 Notice
 
-1) When the expansion board is working, please don’t use screwdrivers or other metal conductive objects to touch the electronic components on the device.
+1) When the expansion board is working, please don't use screwdrivers or other metal conductive objects to touch the electronic components on the device.
 
-2) When the expansion board is working and powered on, you mustn’t unplug the devices except USB and HDMI.
+2) When the expansion board is working and powered on, you mustn't unplug the devices except USB and HDMI.
 
 ### 5.3.2 Wiring Diagram
 
-<img src="../_static/media/chapter_5\section_3/media/image2.jpeg" style="width:5.76333in;height:2.89667in" />
+<img src="../_static/media/chapter_5/section_3/media/image2.jpeg" style="width:5.76333in;height:2.89667in" />
 
 | Port                                                         | Function                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="../_static/media/chapter_5\section_3/media/wps1.png"  /> | It can connect to power cable <br />**Note: “+”** connects to positive electrode i.e. red power cable, and “**-**” connects to negative electrode i.e. black power cable |
-| <img src="../_static/media/chapter_5\section_3/media/wps2.jpg" /> | The serial bus servos can connect to one of them.            |
-| <img src="../_static/media/chapter_5\section_3/media/wps3.jpg" /> | It can connect to PWM servo whose working voltage is DC 5V.<br />**Note:“-”** connects to the negative electrode of servo, “**5V**” connects to negative electrode, and “**S**” connects to the signal terminal. |
-| <img src="../_static/media/chapter_5\section_3/media/wps4.png" /> | This serial port can connect to the electronic modules with serial port communication<br />**Note:** “**TX**” is the interface for sending data, and “**RX**” is the interface for receiving data |
-| <img src="../_static/media/chapter_5\section_3/media/wps5.jpg" /> | GPIO ports are used to connect expanded sensors or modules.<br />**Note:**<br /> 1. the working voltage of the external sensors and modules must be DC 5V<br />The positive pole of the module and sensor should connect to “**5V**”, negative pole to **“GND”** and signal terminal to **“IO6”, “IO10”, “IO20”** and “**IO26**” |
-| <img src="../_static/media/chapter_5\section_3/media/wps6.png" /> | IIC port is used to connect sensors or modules with IIC communication. The interface type is 5264-4AW.<br />**Note:** you can connect to one of them |
+| <img src="../_static/media/chapter_5/section_3/media/wps1.png"  /> | It can connect to power cable <br />**Note: "+"** connects to positive electrode i.e. red power cable, and "**-**" connects to negative electrode i.e. black power cable |
+| <img src="../_static/media/chapter_5/section_3/media/wps2.jpg" /> | The serial bus servos can connect to one of them.            |
+| <img src="../_static/media/chapter_5/section_3/media/wps3.jpg" /> | It can connect to PWM servo whose working voltage is DC 5V.<br />**Note:"-"** connects to the negative electrode of servo, "**5V**" connects to negative electrode, and "**S**" connects to the signal terminal. |
+| <img src="../_static/media/chapter_5/section_3/media/wps4.png" /> | This serial port can connect to the electronic modules with serial port communication<br />**Note:** "**TX**" is the interface for sending data, and "**RX**" is the interface for receiving data |
+| <img src="../_static/media/chapter_5/section_3/media/wps5.jpg" /> | GPIO ports are used to connect expanded sensors or modules.<br />**Note:**<br /> 1. the working voltage of the external sensors and modules must be DC 5V<br />The positive pole of the module and sensor should connect to "**5V**", negative pole to **"GND"** and signal terminal to **"IO6", "IO10", "IO20"** and "**IO26**" |
+| <img src="../_static/media/chapter_5/section_3/media/wps6.png" /> | IIC port is used to connect sensors or modules with IIC communication. The interface type is 5264-4AW.<br />**Note:** you can connect to one of them |
 
 ## 5.4 Control LED
 
@@ -214,25 +214,25 @@ The source code of the program is stored in **/home/jetauto_ws/src/jetauto_examp
 
 >[!Note]
 >
->**The input command should be case sensitive, and the keywords can be complemented by “Tab” key.**
+>**The input command should be case sensitive, and the keywords can be complemented by "Tab" key.**
 
 1) Start Jetson Nano robotic kit, then connect it to NoMachine.
 
-2) Double click <img src="../_static/media/chapter_5\section_4/media/image4.png" style="width:50px" />to open the command line terminal.
+2) Double click <img src="../_static/media/chapter_5/section_4/media/image4.png" style="width:50px" /> to open the command line terminal.
 
-3) Input command “**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/**” and press Enter to enter the directory where the game files are stored.
+3) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/**" and press Enter to enter the directory where the game files are stored.
 
-```py
+```
 cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/
 ```
 
-4) Input command “**python3 led_demo.py**” and press Enter to run the game program.
+4) Input command "**python3 led_demo.py**" and press Enter to run the game program.
 
-```py
+```
 python3 led_demo.py
 ```
 
-5) If you want to exit the program, you can press “**Ctrl+C**”
+5) If you want to exit the program, you can press "**Ctrl+C**"
 
 ### 5.4.4 Program Outcome
 
@@ -258,25 +258,25 @@ The source code of the program is stored in
 
 ### 5.5.3 Operation Steps
 
-<img src="../_static/media/chapter_5\section_5/media/image4.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by “**Tab**” key.
+<img src="../_static/media/chapter_5/section_5/media/image4.png" style="width:50px" /> The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 1) Start Jetson Nano robot kit, and connect it to NoMachine
 
-2) Click <img src="../_static/media/chapter_5\section_5/media/image5.png" style="width:50px" />or press “**Ctrl+Alt+T**” to open command line terminal.
+2) Click <img src="../_static/media/chapter_5/section_5/media/image5.png" style="width:50px" /> or press "**Ctrl+Alt+T**" to open command line terminal.
 
-3) Input command “**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/**” and press Enter to enter the directory where the program file is stored.
+3) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/**" and press Enter to enter the directory where the program file is stored.
 
-```py
+```
 cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/
 ```
 
-4) Input command “**python3 buzzer_demo.py**” and press Enter to run the game program
+4) Input command "**python3 buzzer_demo.py**" and press Enter to run the game program
 
-```py
+```
 python3 buzzer_demo.py
 ```
 
-5) If you want to exit this program, you can press “**Ctrl+C**” .
+5) If you want to exit this program, you can press "**Ctrl+C**" .
 
 ### 5.5.4 Program Outcome
 
@@ -298,29 +298,29 @@ The source code of this program is located in
 
 **/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_exam ple/button_demo.py**
 
-<img src="../_static/media/chapter_5\section_6/media/image3.jpeg" style="width:500px" />
+<img src="../_static/media/chapter_5/section_6/media/image3.jpeg" style="width:500px" />
 
 ### 5.6.3 Operation Steps
 
-<img src="../_static/media/chapter_5\section_6/media/image4.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by “**Tab**” key.
+<img src="../_static/media/chapter_5/section_6/media/image4.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
-(2\) Click <img src="../_static/media/chapter_5\section_6/media/image5.png" style="width:50px" />or press “**Ctrl+Alt+T**” to open command line terminal.
+(2\) Click <img src="../_static/media/chapter_5/section_6/media/image5.png" style="width:50px" />or press "**Ctrl+Alt+T**" to open command line terminal.
 
-(3\) Input command “**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/**” and press Enter to enter the directory where the program file is stored.
+(3\) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/**" and press Enter to enter the directory where the program file is stored.
 
-```py
+```
 cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/
 ```
 
-(4\) Input command “**python3 button_demo.py**” and press Enter to run the game program
+(4\) Input command "**python3 button_demo.py**" and press Enter to run the game program
 
-```py
+```
 python3 button_demo.py
 ```
 
-(5\) If you want to exit this program, you can press “**Ctrl+C**” .
+(5\) If you want to exit this program, you can press "**Ctrl+C**" .
 
 ### 5.6.4 Program Outcome
 
@@ -330,7 +330,7 @@ Take `key1` for example. When you long press the key1, the number behind key1 wi
 
 <img src="../_static/media/chapter_5/section_6/media/image8.jpeg" style="width:4.725in;height:0.33in" />
 
-<img src="../_static/media/chapter_5\section_6/media/image9.jpeg" style="width:4.725in;height:0.33in" />
+<img src="../_static/media/chapter_5/section_6/media/image9.jpeg" style="width:4.725in;height:0.33in" />
 
 ## 5.7 Read Acceleration Sensor
 
@@ -358,25 +358,25 @@ The source code of this program is stored in
 
 ### 5.7.3 Operation Steps
 
-<img src="../_static/media/chapter_5\section_7/media/image4.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by “**Tab**” key.
+<img src="../_static/media/chapter_5/section_7/media/image4.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
-(2\) Click <img src="../_static/media/chapter_5\section_7/media/image5.png" style="width:50px" />or press “**Ctrl+Alt+T**” to open command line terminal.
+(2\) Click <img src="../_static/media/chapter_5/section_7/media/image5.png" style="width:50px" />or press "**Ctrl+Alt+T**" to open command line terminal.
 
-(3\) Input command “**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/**” and press Enter to enter the directory where the program file is kept.
+(3\) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/**" and press Enter to enter the directory where the program file is kept.
 
-```py
+```
 cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/
 ```
 
-(4\) Input command “**python3 imu_demo.py**” and press Enter to run the game program.
+(4\) Input command "**python3 imu_demo.py**" and press Enter to run the game program.
 
-```py
+```
 python3 imu_demo.py
 ```
 
-(5\) If you want to exit this program, please press “**Ctrl+C**” .
+(5\) If you want to exit this program, please press "**Ctrl+C**" .
 
 ### 5.7.4 Program Outcome
 
@@ -396,7 +396,7 @@ The meaning of the information printed is as follow.
 
 Connect the PWM servo to any PWM servo port on the Jetson Nano expansion board. Take LFD-01M servo for example.
 
-<img src="D:\线上资料整理\3. Jetson Nano Development Board\5. Jetson Nano Expansion Board\chapter_5\section_8\media\image2.png" style="width:500px" />
+<img src="../_static/media/chapter_5/section_8/media/image2.png" style="width:500px" />
 
 >[!Note]
 >
@@ -412,34 +412,37 @@ The source code of this program is stored in
 
 **/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/ pwm_servo/pwm_servo_demo.py**
 
-<img src="D:\线上资料整理\3. Jetson Nano Development Board\5. Jetson Nano Expansion Board\chapter_5\section_8\media\image3.png" style="width:500px" />
+<img src="../_static/media/chapter_5/section_8/media/image3.png" style="width:500px" />
 
 Take `my_servo.set_position(position, duration)` for example. The meaning of the parameters in bracket is explained below.
 
 The first parameter `position` refers to the position to which the servo rotates i.e. pulse width. Formula: pulse width = 11.1 x angle + 500 (only for reference)
 
 The second parameter `duration` is the time for the servo rotation in millisecond.
+
+<p id="anchor_5_8_3"></p>
+
 ### 5.8.3 Operation Steps
 
-<img src="../_static/media/chapter_5\section_8/media/image4.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by “**Tab**” key.
+<img src="../_static/media/chapter_5/section_8/media/image4.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
-(2\) Click <img src="../_static/media/chapter_5\section_8/media/image5.png" style="width:50px" />or press “**Ctrl+Alt+T**” to open command line terminal.
+(2\) Click <img src="../_static/media/chapter_5/section_8/media/image5.png" style="width:50px" />or press "**Ctrl+Alt+T**" to open command line terminal.
 
-(3\) Input command “**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/pwm_servo/**” and press Enter to enter the directory where the program file is kept.
+(3\) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/pwm_servo/**" and press Enter to enter the directory where the program file is kept.
 
-```py
+```
 cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/pwm_servo/
 ```
 
-(4\) Input command “**python3 pwm_servo_demo.py**” and press Enter to run the game program.
+(4\) Input command "**python3 pwm_servo_demo.py**" and press Enter to run the game program.
 
-```py
+```
 python3 pwm_servo_demo.py
 ```
 
-(5\) If you want to exit this program, please press “**Ctrl+C**” .
+(5\) If you want to exit this program, please press "**Ctrl+C**" .
 
 ### 5.8.4 Program Outcome
 
@@ -449,37 +452,37 @@ After the game starts, PWM servo will rotate in this rule.
 
 (2\) spend 1s rotating to 108° (1700 pulse width)
 
-Then, the PWM servo will cycle in this way. If you press “**Ctrl+C**”, the program will be exited and the PWM servo will restore to 90° (1500 pulse width), which takes 1s.
+Then, the PWM servo will cycle in this way. If you press "**Ctrl+C**", the program will be exited and the PWM servo will restore to 90° (1500 pulse width), which takes 1s.
 
 ### 5.8.5 Function Extension
 
 The default servo port in the program is NO.1 port. If you want to connect the PWM servo to NO.2 port, you need to modify the program.
 
-(1) Double click <img src="../_static/media/chapter_5\section_8/media/image8.png" style="width:50px" />to open the terminal.
+(1) Double click <img src="../_static/media/chapter_5/section_8/media/image8.png" style="width:50px" />to open the terminal.
 
-(2) Input command “**rosed jetauto_example pwm_servo_demo.py**” and press Enter to open the program file.
+(2) Input command "**rosed jetauto_example pwm_servo_demo.py**" and press Enter to open the program file.
 
-```py
+```
 rosed jetauto_example pwm_servo_demo.py
 ```
 
 (3) Locate to the following codes.
 
-<img src="D:\线上资料整理\3. Jetson Nano Development Board\5. Jetson Nano Expansion Board\chapter_5\section_8\media\image10.png" style="width:5.5325in;height:0.29583in" />
+<img src="../_static/media/chapter_5/section_8/media/image10.png" style="width:5.5325in;height:0.29583in" />
 
 >[!Note]
 >
->**You can input the corresponding line number, then press “Shift+G” key to move to the target line.**
+>**You can input the corresponding line number, then press "Shift+G" key to move to the target line.**
 
-(4) Press “**i**” key to enter the editing mode, then change “ **1**” as “**2**” .
+(4) Press "**i**" key to enter the editing mode, then change " **1**" as "**2**" .
 
-<img src="D:\线上资料整理\3. Jetson Nano Development Board\5. Jetson Nano Expansion Board\chapter_5\section_8\media\image11.png" style="width:5.5325in;height:0.29583in" />
+<img src="../_static/media/chapter_5/section_8/media/image11.png" style="width:5.5325in;height:0.29583in" />
 
-(5) After modification, press “**Esc**” key, input “ **:wq**” and press Enter to save and exit.
+(5) After modification, press "**Esc**" key, input " **:wq**" and press Enter to save and exit.
 
-<img src="D:\线上资料整理\3. Jetson Nano Development Board\5. Jetson Nano Expansion Board\chapter_5\section_8\media\image12.png" style="width:3.17083in;height:0.23083in" />
+<img src="../_static/media/chapter_5/section_8/media/image12.png" style="width:3.17083in;height:0.23083in" />
 
-(6) Lastly, restart the game according to the steps in “**[5.8.3 Operation Steps]()**” , then you can check servo performance.
+(6) Lastly, restart the game according to the steps in "**[5.8.3 Operation Steps](#anchor_5_8_3)**" , then you can check servo performance.
 
 ## 5.9 Control PWM Servo Speed
 
@@ -511,25 +514,25 @@ The second parameter `duration` is the time for the servo rotation in millisecon
 
 ### 5.9.3 Operation Steps
 
-<img src="../_static/media/chapter_5\section_9/media/image4.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by “**Tab**” key.
+<img src="../_static/media/chapter_5/section_9/media/image4.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
-(2\) Click <img src="../_static/media/chapter_5\section_9/media/image5.png" style="width:50px" />or press “**Ctrl+Alt+T**” to open command line terminal.
+(2\) Click <img src="../_static/media/chapter_5/section_9/media/image5.png" style="width:50px" /> or press "**Ctrl+Alt+T**" to open command line terminal.
 
-(3\) Input command “**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/pwm_servo/**” and press Enter to enter the directory where the program file is kept.
+(3\) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/pwm_servo/**" and press Enter to enter the directory where the program file is kept.
 
-```py
+```
 cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/pwm_servo/
 ```
 
-(4\) Input command “**python3 pwm_servo_speed_demo.py**” and press Enter to run the game program.
+(4\) Input command "**python3 pwm_servo_speed_demo.py**" and press Enter to run the game program.
 
-```py
+```
 python3 pwm_servo_speed_demo.py
 ```
 
-(5\) If you want to exit this program, please press “**Ctrl+C**” .
+(5\) If you want to exit this program, please press "**Ctrl+C**" .
 
 ### 5.9.4 Program Outcome
 
@@ -543,7 +546,7 @@ After the game starts, PWM servo will rotate in this rule.
 
 (4\) spend 1s rotating to 108° (1700 pulse width), and the angular velocity is 108 degree/ second.
 
-Then, the PWM servo will cycle in this way. If you press “**Ctrl+C**”, the program will be exited and the PWM servo will restore to 90° (1500 pulse width), which takes 1s.
+Then, the PWM servo will cycle in this way. If you press "**Ctrl+C**", the program will be exited and the PWM servo will restore to 90° (1500 pulse width), which takes 1s.
 
 ## 5.10 Control 2 PWM Servos
 
@@ -577,25 +580,25 @@ The second parameter `duration` is the time for the servo rotation in millisecon
 
 ### 5.10.3 Operation Steps
 
-<img src="../_static/media/chapter_5\section_10/media/image4.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by “**Tab**” key.
+<img src="../_static/media/chapter_5/section_10/media/image4.png" style="width:50px" /> The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
-(2\) Click <img src="../_static/media/chapter_5\section_10/media/image5.png" style="width:50px" />or press “**Ctrl+Alt+T**” to open command line terminal.
+(2\) Click <img src="../_static/media/chapter_5/section_10/media/image5.png" style="width:50px" /> or press "**Ctrl+Alt+T**" to open command line terminal.
 
-(3\) Input command “**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/pwm_servo/**” and press Enter to enter the directory where the program file is kept.
+(3\) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/pwm_servo/**" and press Enter to enter the directory where the program file is kept.
 
-```py
+```
 cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/pwm_servo/
 ```
 
-(4\) Input command “**python3 two_pwm_servo_demo.py**” and press Enter to run the game program.
+(4\) Input command "**python3 two_pwm_servo_demo.py**" and press Enter to run the game program.
 
-```py
+```
 python3 two_pwm_servo_demo.py
 ```
 
-(5\) If you want to exit this program, please press “**Ctrl+C**” .
+(5\) If you want to exit this program, please press "**Ctrl+C**" .
 
 ### 5.10.4 Program Outcome
 
@@ -605,7 +608,7 @@ After the game starts, these two PWM servos will rotate in this rule.
 
 (2) spend 1s rotating to 108° (1700 pulse width)
 
-Then, these two PWM servos will cycle in this way. If you press “**Ctrl+C**”, the program will be exited and the PWM servos will restore to 90° (1500 pulse width), which takes 1s.
+Then, these two PWM servos will cycle in this way. If you press "**Ctrl+C**", the program will be exited and the PWM servos will restore to 90° (1500 pulse width), which takes 1s.
 
 ## 5.11 Control Serial Interface
 
@@ -627,55 +630,55 @@ Connect the TX and RX interfaces on Jetson Nano expansion board together, as the
 
 ### 5.11.3 Program Logic
 
-TX and RX communication interfaces will be employed in serial interface communication. And TX interface will send the data, and RX interface will receive the data. After connecting TX and RX interfaces together, the serial interface communication can be simulated, and the “serial interface” can send and receive data.
+TX and RX communication interfaces will be employed in serial interface communication. And TX interface will send the data, and RX interface will receive the data. After connecting TX and RX interfaces together, the serial interface communication can be simulated, and the "serial interface" can send and receive data.
 
 The source code of this program is located in
 
-**/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/ serial_send_demo.py**
+**/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_send_demo.py**
 
 <img src="../_static/media/chapter_5/section_11/media/image3.png" style="width:5.76333in;height:5.47875in" />
 
 The source code of this program is located in
 
-**/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/ serial_read_demo.py**
+**/home/jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_read_demo.py**
 
 <img src="../_static/media/chapter_5/section_11/media/image4.png" style="width:5.76333in;height:3.97708in" />
 
 ### 5.11.4 Operation Steps
 
-<img src="../_static/media/chapter_5\section_11/media/image5.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by “**Tab**” key.
+<img src="../_static/media/chapter_5/section_11/media/image5.png" style="width:50px" /> The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
-(2\) Click <img src="../_static/media/chapter_5\section_11/media/image6.png" style="width:50px" />or press “**Ctrl+Alt+T**” to open command line terminal.
+(2\) Click <img src="../_static/media/chapter_5/section_11/media/image6.png" style="width:50px" /> or press "**Ctrl+Alt+T**" to open command line terminal.
 
-(3\) Input command “**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/**” and press Enter to enter the directory where the program file is kept.
+(3\) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/**" and press Enter to enter the directory where the program file is kept.
 
-```py
+```
 cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/
 ```
 
-(4\) Input command “**python3 serial_send_demo.py**” and press Enter to run the program to send the data through serial interface.
+(4\) Input command "**python3 serial_send_demo.py**" and press Enter to run the program to send the data through serial interface.
 
-```py
+```
 python3 serial_send_demo.py
 ```
 
-(5\) Then open a new terminal, and input command “**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/**” and press Enter.
+(5\) Then open a new terminal, and input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/**" and press Enter.
 
-(6\) Input command “**python3 serial_read_demo.py**” and press Enter to run the program to receive the data through serial interface.
+(6\) Input command "**python3 serial_read_demo.py**" and press Enter to run the program to receive the data through serial interface.
 
-```py
+```
 python3 serial_read_demo.py
 ```
 
-(7\) If you want to exit this program, you can press “**Ctrl+C**” on the corresponding terminal.
+(7\) If you want to exit this program, you can press "**Ctrl+C**" on the corresponding terminal.
 
 ### 5.11.5 Program Outcome
 
-After the game starts, the terminal where the program “**serial_read_demo.py**” runs will print the characters received by the serial interface.
+After the game starts, the terminal where the program "**serial_read_demo.py**" runs will print the characters received by the serial interface.
 
-<img src="../_static/media/chapter_5\section_11/media/image10.png"/>
+<img src="../_static/media/chapter_5/section_11/media/image10.png"/>
 
 ## 5.12 Control Serial Bus Servo
 
@@ -685,7 +688,7 @@ Connect the serial bus servo to any serial bus servo port on the Jetson Nano exp
 
 <img src="../_static/media/chapter_5/section_12/media/image2.png" style="width:5.30394in;height:3.74355in" />
 
-**Note: the servo wire adopts reverse plugging protection. Please don’t plug it violently.**
+**Note: the servo wire adopts reverse plugging protection. Please don't plug it violently.**
 
 ### 5.12.2 Program Logic
 
@@ -703,7 +706,7 @@ The first parameter `servo_id` refers to the servo ID, and the servo ID in this 
 
 The second parameter `position` stands for the position to which the servo rotates i.e. pulse width. Formula: pulse = 4. 17 x angle (only for reference)
 
-The third parameter “**duration**” is the time taken for rotation in millisecond.
+The third parameter "**duration**" is the time taken for rotation in millisecond.
 
 ### 5.12.3 Set Servo ID
 
@@ -711,23 +714,23 @@ If you need to change the ID of the serial bus servo, you can follow the steps b
 
 (1\) Start Jetson Nano robot kit, and then connect it to NoMachine.
 
-(2\) Double click <img src="../_static/media/chapter_5\section_12/media/image4.png" style="width:50px" />to open the command line terminal.
+(2\) Double click <img src="../_static/media/chapter_5/section_12/media/image4.png" style="width:50px" /> to open the command line terminal.
 
-(3\) Input command “**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial\_servo/**” and press Enter.
+(3\) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/**" and press Enter.
 
-```py
+```
 cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/
 ```
 
-(4\) Input command “**python3 set_serial_servo_status.py**” and press Enter to run the game program.
+(4\) Input command "**python3 set_serial_servo_status.py**" and press Enter to run the game program.
 
-```py
+```
 python3 set_serial_servo_status.py
 ```
 
 <img src="../_static/media/chapter_5/section_12/media/image7.png" style="width:4.74583in;height:3.9275in" />
 
-(5\) Input “ 1” , and press Enter to modify the servo ID.
+(5\) Input " 1" , and press Enter to modify the servo ID.
 
 <img src="../_static/media/chapter_5/section_12/media/image8.png" style="width:4.74583in;height:0.30417in" />
 
@@ -749,25 +752,25 @@ After modification, the servo status will be printed on the terminal. At this ti
 
 ### 5.12.4 Operation Steps
 
-<img src="../_static/media/chapter_5\section_12/media/image13.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by “**Tab**” key.
+<img src="../_static/media/chapter_5/section_12/media/image13.png" style="width:50px" /> The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
-(2\) Click <img src="../_static/media/chapter_5\section_12/media/image14.png" style="width:50px" />to open command line terminal.
+(2\) Click <img src="../_static/media/chapter_5/section_12/media/image14.png" style="width:50px" /> to open command line terminal.
 
-(3\) Input command “**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial\_servo/**” and press Enter to enter the directory where the program file is stored.
+(3\) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial\_servo/**" and press Enter to enter the directory where the program file is stored.
 
-```py
+```
 cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/
 ```
 
-(4\) Input command “**python3 serial_servo_move_demo.py**” and press Enter to run the game program.
+(4\) Input command "**python3 serial_servo_move_demo.py**" and press Enter to run the game program.
 
-```py
+```
 python3 serial_servo_move_demo.py
 ```
 
-(5\) If you want to exit this program, you can press “**Ctrl+C**” .
+(5\) If you want to exit this program, you can press "**Ctrl+C**" .
 
 ### 5.12.5 Program Outcome
 
@@ -777,7 +780,7 @@ After the game starts, the serial bus servo will move in this way.
 
 (2\) Spend 0.5s rotating to 144° (600 pulse width)
 
-Then, the servo will cycle this motion. When you press “**Ctrl+C**” , this program will exit and PWM servo will restore to 120° (500 pulse width), which takes 0.5s.
+Then, the servo will cycle this motion. When you press "**Ctrl+C**" , this program will exit and PWM servo will restore to 120° (500 pulse width), which takes 0.5s.
 
 ## 5.13 Adjust Serial Bus Servo Speed
 
@@ -789,7 +792,7 @@ Connect the serial bus servo to any serial bus servo port on the Jetson Nano exp
 
 >[!Note]
 >
->**The servo wire adopts reverse plugging protection. Please don’t plug it violently.**
+>**The servo wire adopts reverse plugging protection. Please don't plug it violently.**
 
 ### 5.13.2 Program Logic
 
@@ -815,23 +818,23 @@ If you need to change the ID of the serial bus servo, you can follow the steps b
 
 (1\) Start Jetson Nano robot kit, and then connect it to NoMachine.
 
-(2\) Double click <img src="../_static/media/chapter_5\section_13/media/image4.png" style="width:50px" />to open the command line terminal.
+(2\) Double click <img src="../_static/media/chapter_5/section_13/media/image4.png" style="width:50px" />to open the command line terminal.
 
-(3\) Input command “**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/**” and press Enter to enter the directory where the program files are stored.
+(3\) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/**" and press Enter to enter the directory where the program files are stored.
 
-```py
+```
 cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/
 ```
 
-(4\) Input command “**python3 set_serial_servo_status.py**” and press Enter to run the game program.
+(4\) Input command "**python3 set_serial_servo_status.py**" and press Enter to run the game program.
 
-```py
+```
 python3 set_serial_servo_status.py
 ```
 
 <img src="../_static/media/chapter_5/section_13/media/image7.png" style="width:4.74583in;height:3.9275in" />
 
-(5\) Input “ **1**”, and press Enter to modify the servo ID.
+(5\) Input "**1**", and press Enter to modify the servo ID.
 
 <img src="../_static/media/chapter_5/section_13/media/image8.png" style="width:4.74583in;height:0.30417in" />
 
@@ -853,25 +856,25 @@ After modification, the servo status will be printed on the terminal. At this ti
 
 ### **5.13.4 Operation Steps**
 
-<img src="../_static/media/chapter_5\section_13/media/image13.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by “**Tab**” key.
+<img src="../_static/media/chapter_5/section_13/media/image13.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
-(2\) Click <img src="../_static/media/chapter_5\section_13/media/image14.png" style="width:50px" />to open command line terminal.
+(2\) Click <img src="../_static/media/chapter_5/section_13/media/image14.png" style="width:50px" />to open command line terminal.
 
-(3\) Input command **cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/**” and press Enter to enter the directory where the program file is stored.
+(3\) Input command **cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/**" and press Enter to enter the directory where the program file is stored.
 
-```py
+```
 cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/
 ```
 
-(4\) Input command “**python3 serial_servo_speed_demo.py**” and press Enter to run the game program.
+(4\) Input command "**python3 serial_servo_speed_demo.py**" and press Enter to run the game program.
 
-```py
+```
 python3 serial_servo_speed_demo.py
 ```
 
-(5\) If you want to exit this program, you can press “**Ctrl+C**” .
+(5\) If you want to exit this program, you can press "**Ctrl+C**" .
 
 ### 5.13.5 Program Outcome
 
@@ -885,7 +888,7 @@ After the game starts, the serial bus servo will move in this way.
 
 (4\) Spend 1s rotating to 144° (600 pulse width), and the angular velocity is 144 degree/ second.
 
-Then, the servo will cycle this motion. You can press “**Ctrl+C**” to exit this program, and PWM servo will restore to 120° .
+Then, the servo will cycle this motion. You can press "**Ctrl+C**" to exit this program, and PWM servo will restore to 120° .
 
 ## 5.14 Read Serial Bus Servo Status
 
@@ -897,7 +900,7 @@ Connect the serial bus servo to any serial bus servo port on the Jetson Nano exp
 
 >[!Note]
 >
->**The servo wire adopts reverse plugging protection. Please don’t plug it violently.**
+>**The servo wire adopts reverse plugging protection. Please don't plug it violently.**
 
 ### 5.14.2 Program Logic
 
@@ -913,23 +916,23 @@ If you need to change the ID of the serial bus servo, you can follow the steps b
 
 (1\) Start Jetson Nano robot kit, and then connect it to NoMachine.
 
-(2\) Double click <img src="../_static/media/chapter_5\section_14/media/image4.png" style="width:50px" />to open the command line terminal.
+(2\) Double click <img src="../_static/media/chapter_5/section_14/media/image4.png" style="width:50px" />to open the command line terminal.
 
-(3\) Input command “**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/**” and press Enter to enter the directory where the program files are stored.
+(3\) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/**" and press Enter to enter the directory where the program files are stored.
 
-```py
+```
 cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/
 ```
 
-(4\) Input command “**python3 set_serial_servo_status.py**” and press Enter to run the game program.
+(4\) Input command "**python3 set_serial_servo_status.py**" and press Enter to run the game program.
 
-```py
+```
 python3 set_serial_servo_status.py
 ```
 
 <img src="../_static/media/chapter_5/section_14/media/image7.png" style="width:4.74583in;height:3.9275in" />
 
-(5\) Input “ **1**”, and press Enter to modify the servo ID.
+(5\) Input " **1**", and press Enter to modify the servo ID.
 
 <img src="../_static/media/chapter_5/section_14/media/image8.png" style="width:4.74583in;height:0.30417in" />
 
@@ -951,25 +954,25 @@ After modification, the servo status will be printed on the terminal. At this ti
 
 ### 5.14.4 Operation Steps
 
-<img src="../_static/media/chapter_5\section_14/media/image13.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by “**Tab**” key.
+<img src="../_static/media/chapter_5/section_14/media/image13.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
-(2\) Click <img src="../_static/media/chapter_5\section_14/media/image14.png" style="width:50px" />to open command line terminal.
+(2\) Click <img src="../_static/media/chapter_5/section_14/media/image14.png" style="width:50px" />to open command line terminal.
 
-(3\) Input command “**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/**” and press Enter to enter the directory where the program file is stored.
+(3\) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/**" and press Enter to enter the directory where the program file is stored.
 
-```py
+```
 cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/
 ```
 
-(4\) Input command “**python3 serial_servo_status.py**” and press Enter to run the game program.
+(4\) Input command "**python3 serial_servo_status.py**" and press Enter to run the game program.
 
-```py
+```
 python3 serial_servo_status.py
 ```
 
-(5\) If you want to exit this program, you can press “**Ctrl+C**” .
+(5\) If you want to exit this program, you can press "**Ctrl+C**" .
 
 ### 5.14.5 Program Outcome
 
@@ -1007,7 +1010,7 @@ Connect the serial bus servo to any serial bus servo port on the Jetson Nano exp
 
 >[!Note]
 >
->**The servo wire adopts reverse plugging protection. Please don’t plug it violently.**
+>**The servo wire adopts reverse plugging protection. Please don't plug it violently.**
 
 ### 5.15.2 Program Logic
 
@@ -1025,23 +1028,23 @@ If you need to change the ID of the serial bus servo, you can follow the steps b
 
 (1\) Start Jetson Nano robot kit, and then connect it to NoMachine.
 
-(2) Double click<img src="../_static/media/chapter_5\section_14/media/image14.png" style="width:50px" />to open the command line terminal.
+(2) Double click<img src="../_static/media/chapter_5/section_14/media/image14.png" style="width:50px" />to open the command line terminal.
 
-(3\) Input command “**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_ servo/**” and press Enter to enter the directory where the program files are stored.
+(3\) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_ servo/**" and press Enter to enter the directory where the program files are stored.
 
-```py
+```
 cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/
 ```
 
-(4\) Input command “**python3 set_serial_servo_status.py**” and press Enter to run the game program.
+(4\) Input command "**python3 set_serial_servo_status.py**" and press Enter to run the game program.
 
-```py
+```
 python3 set_serial_servo_status.py
 ```
 
 <img src="../_static/media/chapter_5/section_15/media/image7.png" style="width:4.74583in;height:3.9275in" />
 
-(5\) Input “ **1**”, and press Enter to modify the servo ID.
+(5\) Input " **1**", and press Enter to modify the servo ID.
 
 <img src="../_static/media/chapter_5/section_15/media/image8.png" style="width:4.74583in;height:0.30417in" />
 
@@ -1063,29 +1066,28 @@ After modification, the servo status will be printed on the terminal. At this ti
 
 ### 5.15.4 Operation Steps
 
-<img src="../_static/media/chapter_5\section_15/media/image13.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by “**Tab**” key.
+<img src="../_static/media/chapter_5/section_15/media/image13.png" style="width:50px" />The input command should be case sensitive, and the keywords can be complemented by "**Tab**" key.
 
 (1\) Start Jetson Nano robot kit, and connect it to NoMachine
 
-(2\) Click <img src="../_static/media/chapter_5\section_15/media/image14.png" style="width:50px" />to open command line terminal.
+(2\) Click <img src="../_static/media/chapter_5/section_15/media/image14.png" style="width:50px" />to open command line terminal.
 
-(3\) Input command “**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/**” and press Enter to enter the directory where the program file is stored.
+(3\) Input command "**cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/**" and press Enter to enter the directory where the program file is stored.
 
-```py
+```
 cd jetauto_ws/src/jetauto_example/scripts/jetauto_adapter_example/serial_servo/
 ```
 
-(4\) Input command “**python3 serial_servo_voltage.py**” and press Enter to run the game program.
+(4\) Input command "**python3 serial_servo_voltage.py**" and press Enter to run the game program.
 
-```py
+```
 python3 serial_servo_voltage.py
 ```
 
-(5\) If you want to exit this program, you can press “**Ctrl+C**” .
+(5\) If you want to exit this program, you can press "**Ctrl+C**" .
 
 ### 5.15.5 Program Outcome
 
 After the game starts, the battery voltage will be printed on the terminal.
 
-<img src="../_static/media/chapter_5\section_15/media/image17.png" style="width:4.74583in;height:0.31583in" />
-
+<img src="../_static/media/chapter_5/section_15/media/image17.png" style="width:4.74583in;height:0.31583in" />
