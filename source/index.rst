@@ -1,15 +1,15 @@
-.. Test documentation master file, created by
+.. Jetson Nano Development Board documentation master file, created by
    sphinx-quickstart on Thu Jul 25 14:39:47 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
 ===========
-Test
+Jetson Nano Development Board
 ===========
 
 .. toctree::
    :maxdepth: 2
-   :caption: Test
+   :caption: Jetson Nano Development Board
 
    docs/1_Jetson_Nano_Basic_Lesson.md
    docs/2_Hardware_Control_Lesson_Python.md
