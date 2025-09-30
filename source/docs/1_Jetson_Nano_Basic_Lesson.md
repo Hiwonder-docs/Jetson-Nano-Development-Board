@@ -282,6 +282,8 @@ The function explanation of some of interfaces:
 </tbody>
 </table>
 
+<p id="anchor_1_1_2"></p>
+
 ### 1.1.2 TF Card Writing Image
 
 * **Preparation**
@@ -356,7 +358,7 @@ When first boot up Jetson Nano board, the system needs to be configured.
 
 1. Insert SD card (the system image is written) into Jetson Nano board. The SD card slot is shown in the picture below:
 
-(Regarding system image writing, please refer to the material in " **[1.1 Jetson Nano B01 Usage/ 1.1.2 TF Card Writing Image]()**" .)
+(Regarding system image writing, please refer to the material in "**[1.1.2 TF Card Writing Image](#anchor_1_1_2)**" .)
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_3/media/image2.png" style="width:500px" />
 
@@ -367,6 +369,8 @@ When first boot up Jetson Nano board, the system needs to be configured.
 3. Connect monitor, mouse and keyboard to Jetson Nano board. Use HDMI cable to connect monitor to HDMI port of Jetson Nano board. Mouse and keyboard are connected to USB port, and 5V 4A power adapter to DC power port. Lastly, boot up Jetson Nano board after the network is connected.
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_3/media/image4.png" style="width:500px" />
+
+<p id="anchor_1_1_3_3"></p>
 
 * **System Configuration**
 
@@ -1089,7 +1093,7 @@ After entering Jetson Nano system, adjust the resolution to enable the resolutio
 
 If Jetson Nano does not enable auto-login, black screen will occur when using Nomachine.
 
-Use a monitor to connect Jetson Nano board, For auto-login setting, please refer to Step 9-13 in "[ **1.1 Jetson Nano B01/ 1.1.3 First Start Jetson Nano/ System Configuration**]()" in material "[**1.1 Jetson Nano B01/ 1.1.3 First Start Jetson Nano**]()" .
+Use a monitor to connect Jetson Nano board, For auto-login setting, please refer to Step 9-13 in "[ **1.1.3 First Start Jetson Nano/ System Configuration**](#anchor_1_1_3_3)".
 
 2) **Blank Screen**
 
@@ -1216,7 +1220,7 @@ Use SDK Manager tool in the virtual machine to install system image on SD card. 
 
 * **Install Virtual Machine**
 
-The installation pack of VMware Workstation Pro is located in "[**Appendix**]()".
+The installation pack of VMware Workstation Pro is located in "[**Appendix**](https://wiki.hiwonder.com/projects/Jetson-Nano-Development-Board/en/latest/docs/Appendix.html)".
 
 The specific operation steps are as follow:
 
@@ -1262,7 +1266,7 @@ The specific operation steps are as follow:
 
 * **Create a Virtual Machine**
 
-We will use Ubuntu 18.04 system in here and the system image file is located in "**[Appendix]()**".
+We will use Ubuntu 18.04 system in here and the system image file is located in "**[Appendix](https://wiki.hiwonder.com/projects/Jetson-Nano-Development-Board/en/latest/docs/Appendix.html)**".
 
 The operation steps for creating a virtual machine is as follow：
 
@@ -1368,7 +1372,7 @@ As NVIDIA DEVELOPER website is required to be login when using SDK Manager tool.
 
 * **Install SDK Manager**
 
-The SDK Manager tool installation pack is located in "**[Appendix]()**".
+The SDK Manager tool installation pack is located in "**[Appendix](https://wiki.hiwonder.com/projects/Jetson-Nano-Development-Board/en/latest/docs/Appendix.html)**".
 
 1) Double click on<img src="../_static/media/chapter_1_1/section_11/media/image8.png" style="width:50px" /> to open virtual machine. Click on "Start the virtual machine".
 
@@ -1728,6 +1732,8 @@ The hardware structure of Jetson Nano EMMC version is as follow:
 </tbody>
 </table>
 
+<p id="anchor_1_2_2"></p>
+
 ### 1.2.2 First Start Jetson Nano ALT
 
 When first boot up Jetson Nano board, the system needs to be configured.
@@ -1751,6 +1757,8 @@ When first boot up Jetson Nano board, the system needs to be configured.
 HDMI cable to connect monitor to HDMI port of Jetson Nano board. Mouse and keyboard are connected to USB port, and 5V 4A power adapter to DC power port. Lastly, boot up Jetson Nano board after the network is connected.
 
 <img class="common_img" src="../_static/media/chapter_1_2/section_2/media/image2.png" style="width:500px" />
+
+<p id="anchor_1_2_2_3"></p>
 
 * **System Configuration**
 
@@ -2064,6 +2072,8 @@ The following picture shows the Jetson Nano system desktop:
 </tbody>
 </table>
 
+<p id="anchor_1_2_4"></p>
+
 ### 1.2.4 Network Configuration (Wired and Wireless)
 
 * **Preface**
@@ -2265,6 +2275,8 @@ Turn on Jetson Nano. Connect USB cable to the position shown in following pictur
 
 <img class="common_img" src="../_static/media/chapter_1_2/section_4/media/image33.png" style="width:400px" />
 
+<p id="anchor_1_2_5"></p>
+
 ### 1.2.5 SSH Remote Connection
 
 * **SSH Introduction**
@@ -2273,7 +2285,7 @@ SSH is a network protocol (the default port number is 22) used for encrypted log
 
 * **Preparation**
 
-1) Refer to " **[1.2 Jetson Nano ALT Basic Lesson/ 1.2.4 Network Configuration]()**" to complete network connection.
+1) Refer to "**[1.2.4 Network Configuration](#anchor_1_2_4)**" to complete network connection.
 
 2) **MobaXterm tool** (remote connection tool. Please find the software under the same directory with the document.)
 
@@ -2329,7 +2341,7 @@ Reminder: if you use USB cable to connect Jetson Nano, the fixed IP is "**192.16
 
 This lesson will explain how to remote access Jetson Nano through Nomachine.
 
-Note: before this lesson, please refer to "[ **1.2 Jetson Nano ALT/ 1.2.4 Network Configuration**]()" to connect network.
+Note: before this lesson, please refer to "[**1.2.4 Network Configuration**](#anchor_1_2_4)" to connect network.
 
 * **Nomachine Introduction**
 
@@ -2457,7 +2469,7 @@ xrandr --fb 1920x1080
 
 1) If Jetson Nano does not enable auto-login, black screen will occur when using Nomachine.
 
-2) Use a monitor to connect Jetson Nano board, For auto-login setting, please refer to Step 9-13 in "**[1.2 Jetson Nano ALT-> 1.2.2 First Start Jetson Nano ALT-> System Configuration]()**" in material " **[1.2 Jetson Nano ALT/ 1.2.2 First Start Jetson Nano ALT]()**" .
+2) Use a monitor to connect Jetson Nano board, For auto-login setting, please refer to Step 9-13 in "**[1.2.2 First Start Jetson Nano ALT-> System Configuration](#anchor_1_2_2_3)**".
 
 **2. Blank Screen**
 
@@ -2473,7 +2485,7 @@ If there is no operation for a long time after connecting NoMachine, blank scree
 
 >[!Note]
 >
->**Before this lesson, please refer to the document "[1.2.5 SSH Remote Connection]()" in " [1.2 Jetson Nano ALT-> 1.2.5 SSH Remote Connection]()".**
+>**Before this lesson, please refer to the document "[1.2.5 SSH Remote Connection](#anchor_1_2_5)".**
 
 * **Realization Goal**
 
@@ -2533,7 +2545,7 @@ sudo mount /dev/sda1 /mnt
 
 7) Lastly, enter command "**df -h**" to view whether the mounting is completed.
 
-```py
+```
 df -h
 ```
 
@@ -2577,6 +2589,8 @@ sudo mount -a
 
 <img class="common_img" src="../_static/media/chapter_1_2/section_8/media/image9.jpeg" style="width:500px" />
 
+<p id="anchor_1_2_9"></p>
+
 ### 1.2.9 TF Card Mounting
 
 Jetson Nano ALT board provides TF card expansion slot which can be used to mount TF card to Jetson Nano ALT board as additional storage space. This lesson will introduce you how to mount TF card to Jetson Nano board.
@@ -2595,7 +2609,7 @@ Jetson Nano ALT board provides TF card expansion slot which can be used to mount
 
 * **Mount TF Card to Jetson Nano Board**
 
-The drive file"**kernel_tegra210-p3448-0002-p3449-0000-b00-user-custom.dtb**" in "**[Appendix]()**" is used in here.
+The drive file"**kernel_tegra210-p3448-0002-p3449-0000-b00-user-custom.dtb**" in "**[Appendix](https://wiki.hiwonder.com/projects/Jetson-Nano-Development-Board/en/latest/docs/Appendix.html)**" is used in here.
 
 1) Insert TF card to corresponding card slot of Jetson Nano ALT board, then connect monitor, mouse and keyboard.
 
@@ -2649,6 +2663,8 @@ sudo vim /boot/extlinux/extlinux.conf
 
 <img class="common_img" src="../_static/media/chapter_1_2/section_9/media/image13.jpeg" style="width:500px" />
 
+<p id="anchor_1_2_10"></p>
+
 ### 1.2.10 Build eMMC Writing Environment
 
 Jetson Nano ALT board comes with 16GB eMMC so the image can be written to eMMC with SDK Manager tool on virtual machine.
@@ -2657,9 +2673,7 @@ This lesson will teach you how to install virtual machine software and how to cr
 
 * **Install Virtual Machine Software**
 
-**VMware Workstation Pro** is used in this lesson. The software installation
-
-package is stored in " **[1. Jetson Nano Basic Lesson/ 1.2 Jetson Nano ALT/ 1.2.10 Build eMMC Writing Environment/ Virtual Machine Software]()**".
+**VMware Workstation Pro** is used in this lesson. The software installation package is stored in " **[Virtual Machine Software](https://drive.google.com/drive/folders/18z1ZfEgzP9pqFrnYh71fGvdioaJhUk10?usp=sharing)**".
 
 The specific installation steps are as follow:
 
@@ -2695,7 +2709,7 @@ The specific installation steps are as follow:
 
 * **Create Virtual Machine**
 
-Ubuntu 18.04 is the system of virtual machine. The system image is stored in "[ **Appendix**]()" .
+Ubuntu 18.04 is the system of virtual machine. The system image is stored in "[ **Appendix**](https://wiki.hiwonder.com/projects/Jetson-Nano-Development-Board/en/latest/docs/Appendix.html)" .
 
 1) Double click on to open virtual machine.
 
@@ -2743,6 +2757,8 @@ Due to select the auto-start option, virtual machine will automatically start an
 
 <img class="common_img" src="../_static/media/chapter_1_2/section_10/media/image18.png" style="width:500px" />
 
+<p id="anchor_1_2_11"></p>
+
 ### 1.2.11 Write eMMC System
 
 * **Hardware Preparation**
@@ -2761,7 +2777,7 @@ Due to select the auto-start option, virtual machine will automatically start an
 
 **1. Configure Virtual Machine**
 
-Install virtual machine software "**VMware Workstation Pro**" and create virtual machine. The specific operation steps refer to the document in " **[1. Jetson Nano basic Lesson-\> 1.2 Jetson Nano ALT -\> 1.2.10 Build eMMC Writing Environment]()**" .
+Install virtual machine software "**VMware Workstation Pro**" and create virtual machine. The specific operation steps refer to the document in " **[1.2.10 Build eMMC Writing Environment](#anchor_1_2_10)**" .
 
 **2. Sign up NVIDIA DEVELOPER Account**
 
@@ -2769,7 +2785,7 @@ Since the account of NVIDIA DEVELOPER website will be used in SDK Manager Tool, 
 
 >[!Note]
 >
->**If you already have an account on NVIDIA DEVELOPER website, you can jump directly to "[1.2.11 Write eMMC System -> Install SDK Manger]()".**
+>**If you already have an account on NVIDIA DEVELOPER website, you can jump directly to "[1.2.11 Write eMMC System -> Install SDK Manger](#anchor_1_2_11_3)".**
 
 1. Enter NAVID DEVELOPER website "**<https://developer.nvidia.com/>**" and click "**Join**" button on the upper right corner.
 
@@ -2795,13 +2811,15 @@ Since the account of NVIDIA DEVELOPER website will be used in SDK Manager Tool, 
 
 <img class="common_img" src="../_static/media/chapter_1_2/section_11/media/image7.png" style="width:600px" />
 
+<p id="anchor_1_2_11_3"></p>
+
 * **Install SDK Manager**
 
-SDK Manger is stored in "**[Appendix]()**" .
+SDK Manger is stored in "**[Appendix](https://wiki.hiwonder.com/projects/Jetson-Nano-Development-Board/en/latest/docs/Appendix.html)**" .
 
 >[!Note]
 >
->Please install virtual machine according to "**[1.2.10 Build Writing Environment for eMMC]()**" (it is a simple installation method). If you select custom installation, "**VMware Tools**" is required to be installed.
+>Please install virtual machine according to "**[1.2.10 Build Writing Environment for eMMC](#anchor_1_2_10)**" (it is a simple installation method). If you select custom installation, "**VMware Tools**" is required to be installed.
 
 <img class="common_img" src="../_static/media/chapter_1_2/section_11/media/image8.jpeg" style="width:500px" />
 
@@ -2856,6 +2874,8 @@ sudo apt install ./sdkmanager_1.8.3-10426_amd64.deb
 12) After installation, click on <img src="../_static/media/chapter_1_2/section_11/media/image20.png" style="width:50px" /> icon. Then you can view the icon of SDK Manger in program interface.
 
 <img class="common_img" src="../_static/media/chapter_1_2/section_11/media/image21.png" style="width:500px" />
+
+<p id="anchor_1_2_11_4"></p>
 
 * **Install System on eMMC**
 
@@ -2984,7 +3004,7 @@ sudo apt install ./sdkmanager_1.8.3-10426_amd64.deb
 >
 >* **Power off Jetson Nano board and pull off the jumper cap.**
 >* **Connect monitor and mouse to Jetson Nono, and then power on Jetson Nano.**
->* **Enter Jetson Nano system, and complete basic configuration according to " [1. Jetson Nano Basic Lesson/ 1.2 Jetson Nano ALT board/ 1.2.2 First Start Jetson Nano]()" . Then power off Jetson Nano, disconnect mouse and monitor.**
+>* **Enter Jetson Nano system, and complete basic configuration according to "[1.2.2 First Start Jetson Nano](#anchor_1_2_2)" . Then power off Jetson Nano, disconnect mouse and monitor.**
 >* **After powering up, connect Jetson Nono to virtual machine through USB cable.**
 >* **Lastly, repeat over from step 24.**
 
@@ -3002,7 +3022,7 @@ sudo apt install ./sdkmanager_1.8.3-10426_amd64.deb
 
 >[!Note]
 >
->**After "Jetson SDL Components" is stalled, if the disk space is full, please refer to "[1.2.9 TF Card Mounting]()" to learn how to improve capacity.**
+>**After "Jetson SDL Components" is stalled, if the disk space is full, please refer to "[1.2.9 TF Card Mounting](#anchor_1_2_9)" to learn how to improve capacity.**
 
 <img class="common_img" src="../_static/media/chapter_1_2/section_11/media/image55.png" style="width:500px" />
 
@@ -3010,7 +3030,7 @@ sudo apt install ./sdkmanager_1.8.3-10426_amd64.deb
 
 Before reinstalling system on eMMC, you need to first uninstall original system.
 
-1. Refer to step1-12 in "**[1.2.11 Write eMMC System -> Install System on eMMC]()**" .
+1. Refer to step1-12 in "**[1.2.11 Write eMMC System -> Install System on eMMC](#anchor_1_2_11_4)**" .
 
 2. Click "**Repair/Uninstall**" .
 
@@ -3028,7 +3048,7 @@ Before reinstalling system on eMMC, you need to first uninstall original system.
 
 <img class="common_img" src="../_static/media/chapter_1_2/section_11/media/image59.png" style="width:500px" />
 
-6. Reinstall system according to step 13-30 in "**[1.2.11 Write eMMC System ->Install System on eMMC]()**" .
+6. Reinstall system according to step 13-30 in "**[1.2.11 Write eMMC System ->Install System on eMMC](#anchor_1_2_11_4)**" .
 
 ### 1.2.12 Boot via TF Card
 
@@ -3048,15 +3068,13 @@ If eMMC of Jetson Nano ALT is used as system disk, the left space is not enough 
 >
 >**It is recommended to use A2/U3/V30 level TF card. The speed of TF card directly affects the device running speed. Sandisk or Samsung TF cards have been tested, which can be mounted normally and get the system boot.**
 
-****
-
 * **Install System to TF card**
 
 Jetson Nano B01 board can directly start up system after inserting TF card with image while Jetson NANO ALT board needs to install systen to eMMC via TF card. TF card on Jetson Nano ALT board can only be used as the path to the root file system, but the lunch partition is till on eMMC.
 
 Therefore, install system to eMMC first and check whether development board starts normally. Then copy eMMC system file to TF card. Lastly, modify the configuration file of Jetson Nano ALT board to enable system boot up on TF card.
 
-For specific operation steps, please refer to "[ **1. Jetson Nano Basic Lesson/ 1.2 Jetson Nano ALT/ 1.2.11 Write eMMC System**]()" .
+For specific operation steps, please refer to "[ **1.2.11 Write eMMC System**](#anchor_1_2_11)" .
 
 * **Configure TF Card as System Disk**
 
@@ -3068,7 +3086,7 @@ Then a device number is assigned to TF card, which is similar to the disk boot o
 
 >[!Note]
 >
->**The entered command should be case sensitive and "Tab" key can be used to auto- complete keywords. For TF card mounting, please refer to " [1. Jetson Nano Basic Lesson/ 1.2 Jetson Nano ALT/ 1.2.9 TF Card Mounting]()" .**
+>**The entered command should be case sensitive and "Tab" key can be used to auto- complete keywords. For TF card mounting, please refer to " [1.2.9 TF Card Mounting](#anchor_1_2_9)" .**
 
 1. Connect monitor, mouse, keyboard and TF card to Jetson Nano ALT board.
 
@@ -3212,7 +3230,7 @@ Jetson series product is unable to completely dependent on U disk to boot up sys
 
 Therefore, eMMC needs to install system first before the system file is copied to U disk, and check whether Jetson Nano board is boot up successfully.
 
-For specific operation steps, please refer to "[ **1. Jetson Nano Basic Lesson/ 1.2 Jetson Nano ALT/ 1.2.11 Write eMMC System**]()" .
+For specific operation steps, please refer to "[ **1.2.11 Write eMMC System**](#anchor_1_2_11)" .
 
 * **Configure U Disk as System Disk**
 
