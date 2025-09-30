@@ -424,7 +424,7 @@ The system needs to be configured when first start Jetson Nano. The operation st
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_3/media/image20.png" style="width:500px" />
 
-13. After the first use of Jetson board, it can be directly controlled via remote tool. For the remote control, please refer to the material in " **[1.1 Jetson Nano Basic Lesson/ 1.1.7 Remote Desktop Configuration and Usage]()**".
+13. After the first use of Jetson board, it can be directly controlled via remote tool. For the remote control, please refer to the material in " **[1.1.7 Remote Desktop Configuration and Usage](#anchor_1_1_7)**".
 
 ### 1.1.4 Jetson Nano System and Desktop Introduction
 
@@ -696,6 +696,8 @@ The following picture shows the Jetson Nano system desktop:
 </tbody>
 </table>
 
+<p id="anchor_1_1_5"></p>
+
 ### 1.1.5 Network Configuration (Wired and Wireless)
 
 * **Preface**
@@ -744,7 +746,7 @@ Wireless network card is a wireless terminal device, which is used to connect to
 
 >[!Note]
 >
-> For remote desktop installation and configuration, please refer to the material in " [**1.1 Jetson Nano B01/ 1.1.7 Remote Desktop Configuration and Usage**]()".
+> For remote desktop installation and configuration, please refer to the material in " [**1.1.7 Remote Desktop Configuration and Usage**](#anchor_1_1_7)".
 >
 
 2. Double click <img src="../_static/media/chapter_1_1/section_5/media/image5.png" style="width:50px" />to on system desktop to open the command line terminal.
@@ -902,7 +904,7 @@ SSH is a network protocol (the default port number is 22) used for encrypted log
 
 * **Preparation**
 
-1. Refer to "**[1.1 Jetson Nano B01 Basic Lesson/ 1.1.5 Network Configuration]()**" to complete network connection.
+1. Refer to "**[1.1.5 Network Configuration](#anchor_1_1_5)**" to complete network connection.
 
 2. MobaXterm tool (remote connection tool. Please find it under the same directory with this document and install.)
 
@@ -951,13 +953,15 @@ After the password is input correctly, you will access to system successfully, a
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_6/media/image10.jpeg" style="width:500px" />
 
+<p id="anchor_1_1_7"></p>
+
 ### 1.1.7 Remote Desktop Configuration and Usage
 
 This lesson will explain how to remote access Jetson Nano through Nomachine.
 
 >[!Note]
 >
->**Before this lesson, please refer to " [1.1 Jetson Nano B01/ 1.1.5 Network Configuration]()" to connect network.**
+>**Before this lesson, please refer to "[1.1.5 Network Configuration](#anchor_1_1_5)" to connect network.**
 
 * **Nomachine Introduction**
 
@@ -971,13 +975,13 @@ It is a remote desktop technology, which adopts a new remote protocol, extracts 
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_7/media/image2.jpeg" style="width:1.16667in;height:1.45833in" />
 
-2. Double click "**[nomachine_7.1.3_1.exe]()**" to open Nomachine installation package.
+2. Double click "**[nomachine_7.1.3_1.exe](https://drive.google.com/drive/folders/15qZCvJvIb5HiTKk-u5BmBC_arG5I-P_U?usp=sharing)**" to open Nomachine installation package.
 
-3. Click "**Next**" .
+3. Click "**Next**".
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_7/media/image3.png" style="width:500px" />
 
-4. Select installation language as "**English**" . Check "**I accept the agreement**" and click "**Next**" .
+4. Select installation language as "**English**". Check "**I accept the agreement**" and click "**Next**" .
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_7/media/image4.png" style="width:500px" />
 
@@ -1015,7 +1019,7 @@ page.
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_7/media/image11.jpeg" style="width:500px" />
 
-6. Find file "**[nomachine_8.1.2_1_arm64.deb]()**" in the same path of this document.
+6. Find file "**[nomachine_8.1.2_1_arm64.deb](https://drive.google.com/drive/folders/15qZCvJvIb5HiTKk-u5BmBC_arG5I-P_U?usp=sharing)**" in the same path of this document.
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_7/media/image12.png" style="width:500px" />
 
@@ -1204,6 +1208,8 @@ sudo mount -a
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_9/media/image9.jpeg" style="width:500px" />
 
+<p id="anchor_1_1_10"></p>
+
 ### 1.1.10 Set Development Environment
 
 Use SDK Manager tool in the virtual machine to install system image on SD card. This lesson will guide you how to install the virtual machine software.
@@ -1322,19 +1328,19 @@ You can use SDK Manager tool on virtual machine to burn the system image to SD c
 
 * **Software Preparation**
 
- **1. Virtual Machine Configuration**
+**1. Virtual Machine Configuration**
 
-Install VMware Workstation Pro on your computer and create the virtual machine. For the specific operation steps, please refer to "**[1. Jetson Nano Basic Lesson-\>1.1 Jetson Nano B01 Basic Lesson-\>1.1.10 Set Development Environment]()**".
+Install VMware Workstation Pro on your computer and create the virtual machine. For the specific operation steps, please refer to "**[1.1.10 Set Development Environment](#anchor_1_1_10)**".
 
- **2. Sign up NVIDIA DEVELOPER**
+**2. Sign up NVIDIA DEVELOPER**
 
 As NVIDIA DEVELOPER website is required to be login when using SDK Manager tool. Please sign up in advanced. The specific operation steps is as follow:
 
 >[!Note]
 >
->  **If you have an account on NVIDIA DEVELOPER website, please jump to** "**[1.1.11 Burn System Image -> Install SDK Manger]()**".
+>  **If you have an account on NVIDIA DEVELOPER website, please jump to** "**[1.1.11 Burn System Image -> Install SDK Manger](#anchor_1_1_11_3)**".
 
-1) Enter NVIDIA DEVELOPER website "http://developer.nvidia.com/". Click on "**Join**" button.
+1) Enter NVIDIA DEVELOPER website **"<http://developer.nvidia.com/>"**. Click on "**Join**" button.
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_11/media/image2.png" style="width:500px" />
 
@@ -1357,6 +1363,8 @@ As NVIDIA DEVELOPER website is required to be login when using SDK Manager tool.
 6) Complete your profile and check "Join the NAVIDIA Developer Program to access downloads (like cuDNN)... ", then click on "Submit".
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_11/media/image7.png" style="width:500px" />
+
+<p id="anchor_1_1_11_3"></p>
 
 * **Install SDK Manager**
 
@@ -1409,6 +1417,8 @@ Note: the entered password will not display on the terminal.
 10) After installation is completed, click on<img src="../_static/media/chapter_1_1/section_11/media/image15.png" style="50px" />. Then you can find SDKManger software.
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_11/media/image21.png" style="width:500px" />
+
+<p id="anchor_1_1_11_4"></p>
 
 * **Install SDK System and Burn JetPack**
 
@@ -1552,7 +1562,7 @@ Note: the entered password will not display on the terminal.
 
 The original system must be uninstalled before reinstalling the system. Please refer to the following operation steps:
 
-1) Please refer to the steps 1-12 in "**[1. Jetson Nano Basic Lesson->1.1 Jetson Nano B01 Basic Lesson->1.1.11 Burn System Image -> Install SDK System and Burn JetPack]()**".
+1) Please refer to the steps 1-12 in "**[1.1.11 Burn System Image -> Install SDK System and Burn JetPack](#anchor_1_1_11_4)**".
 
 2) Click "**Repair/Uninstall**".
 
@@ -1572,7 +1582,7 @@ The original system must be uninstalled before reinstalling the system. Please r
 
 <img class="common_img" src="../_static/media/chapter_1_1/section_11/media/image56.png" style="width:500px" />
 
-6) Refer to the steps 13-30 in "**[1. Jetson Nano Basic Lesson->1.1 Jetson Nano B01 Basic Lesson->1.1.11 Burn System Image -> Install SDK System and Burn JetPack]()**" to reinstall the system.
+6) Refer to the steps 13-30 in "**[1.1.11 Burn System Image -> Install SDK System and Burn JetPack](#anchor_1_1_11_4)**" to reinstall the system.
 
 ## 1.2 Jetson Nano ALT Basic Lesson
 
@@ -1782,7 +1792,7 @@ The system needs to be configured when first start Jetson Nano. The operation st
 
 <img class="common_img" src="../_static/media/chapter_1_2/section_2/media/image12.png" style="width:500px" />
 
-After the first use of Jetson board ALT board, it can be directly controlled via remote tool. For the remote control, please refer to the material in " **[1. Jetson Nano Basic Lesson ->1.2 Jetson Nano ALT Basic Lesson ->1.2.6 Remote Desktop Configuration and Usage]()**".
+After the first use of Jetson board ALT board, it can be directly controlled via remote tool. For the remote control, please refer to the material in " **[1.2.6 Remote Desktop Configuration and Usage](#anchor_1_2_6)**".
 
 ### 1.2.3 Jetson Nano System and Desktop Introduction
 
@@ -2103,7 +2113,7 @@ Wireless network card is a wireless terminal device, which is used to connect to
 
 >[!Note]
 >
->For remote desktop installation and configuration, please refer to the material in " **[1. 1 Jetson Nano B01 ->1.1.7 Remote Desktop Configuration and Usage]()**".
+>For remote desktop installation and configuration, please refer to the material in " **[1.1.7 Remote Desktop Configuration and Usage](#anchor_1_1_7)**".
 >
 
 2) Double click<img src="../_static/media/chapter_1_2/section_4/media/image4.png" style="width:50px" /> to on system desktop to open the command line terminal.
@@ -2312,6 +2322,8 @@ Reminder: if you use USB cable to connect Jetson Nano, the fixed IP is "**192.16
 5) After the password is input correctly, you will access to system successfully, as the figure shown below:
 
 <img class="common_img" src="../_static/media/chapter_1_2/section_5/media/image10.jpeg" style="width:500px" />
+
+<p id="anchor_1_2_6"></p>
 
 ### 1.2.6 Remote Desktop Configuration and Usage
 
@@ -3060,7 +3072,7 @@ Then a device number is assigned to TF card, which is similar to the disk boot o
 
 1. Connect monitor, mouse, keyboard and TF card to Jetson Nano ALT board.
 
-Then connect 5V 4A power adapter to DC power port of Jetson Nano board and start Jetson Nano. (for the use of remote desktop, please refer to " [**1. Jetson Nano Basic Lesson/ 1.2 Jetson Nano ALT/ 1.2.6 Remote Desktop Configuration and Usage**]()" .)
+Then connect 5V 4A power adapter to DC power port of Jetson Nano board and start Jetson Nano. (for the use of remote desktop, please refer to " [**1.2.6 Remote Desktop Configuration and Usage**](#anchor_1_2_6)" .)
 
 <img class="common_img" src="../_static/media/chapter_1_2/section_12/media/image2.png" style="width:500px" />
 
